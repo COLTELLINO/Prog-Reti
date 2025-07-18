@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <rect x="4" y="8" width="56" height="48" rx="4" fill="#e8f4fd" stroke="#2196f3" stroke-width="2"/>
+    <text x="8" y="20" fill="#1976d2" font-family="monospace" font-size="6">GET / HTTP/1.1</text>
+    <text x="8" y="28" fill="#1976d2" font-family="monospace" font-size="5">Host: localhost</text>
+    <text x="8" y="36" fill="#1976d2" font-family="monospace" font-size="5">User-Agent: Browser</text>
+    <text x="8" y="44" fill="#1976d2" font-family="monospace" font-size="5">Accept: text/html</text>
+</svg>

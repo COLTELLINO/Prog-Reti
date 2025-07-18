@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Pagina Non Trovata</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/404.svg" type="image/svg+xml">
+    <style>
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 2rem;
+        }
+        
+        .error-container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 4rem 2rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        .error-code {
+            font-size: 8rem;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.3);
+            margin: 0;
+            line-height: 1;
+        }
+        
+        .error-title {
+            font-size: 3rem;
+            color: white;
+            margin: 1rem 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .error-message {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .error-icon {
+            width: 120px;
+            height: 120px;
+            margin: 2rem auto;
+            opacity: 0.8;
+            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+        }
+        
+        .error-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        
+        .error-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .error-link:hover {
+            background: white;
+            color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+        }
+        
+        .error-link.primary {
+            background: #667eea;
+            border-color: #667eea;
+        }
+        
+        .error-link.primary:hover {
+            background: #5a67d8;
+            border-color: #5a67d8;
+            color: white;
+        }
+        
+        .error-suggestions {
+            margin-top: 3rem;
+            text-align: left;
+        }
+        
+        .error-suggestions h3 {
+            color: white;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .suggestion-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .suggestion-list li {
+            padding: 0.5rem 0;
+            color: rgba(255, 255, 255, 0.9);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .suggestion-list li::before {
+            content: "💡";
+            font-size: 1.2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .error-code {
+                font-size: 6rem;
+            }
+            
+            .error-title {
+                font-size: 2rem;
+            }
+            
+            .error-container {
+                padding: 3rem 1.5rem;
+            }
+            
+            .error-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <div class="error-container">
+            <div class="error-code">404</div>
+            <img src="icons/404.svg" alt="404 Error" class="error-icon">
+            <h1 class="error-title">Pagina Non Trovata</h1>
+            <p class="error-message">
+                Ops! La risorsa che stai cercando non è stata trovata su questo server.
+                La pagina potrebbe essere stata spostata, rinominata o non esistere più.
+            </p>
+            
+            <div class="error-actions">
+                <a href="/" class="error-link primary">🏠 Torna alla Home</a>
+                <a href="javascript:history.back()" class="error-link">⬅️ Pagina Precedente</a>
+                <a href="/stats" class="error-link">📊 Statistiche Server</a>
+            </div>
+            
+            <div class="error-suggestions">
+                <h3>💡 Suggerimenti</h3>
+                <ul class="suggestion-list">
+                    <li>Controlla l'URL per eventuali errori di battitura</li>
+                    <li>Verifica che il file esista nella directory del server</li>
+                    <li>Torna alla pagina principale e naviga da lì</li>
+                    <li>Controlla i log del server per maggiori dettagli</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Animazione di entrata
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.error-container');
+            container.style.opacity = '0';
+            container.style.transform = 'scale(0.9)';
+            container.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            
+            setTimeout(() => {
+                container.style.opacity = '1';
+                container.style.transform = 'scale(1)';
+            }, 100);
+            
+            // Animazione del codice di errore
+            const errorCode = document.querySelector('.error-code');
+            let count = 0;
+            const targetCount = 404;
+            const increment = Math.ceil(targetCount / 20);
+            
+            const counter = setInterval(() => {
+                count += increment;
+                if (count >= targetCount) {
+                    count = targetCount;
+                    clearInterval(counter);
+                }
+                errorCode.textContent = count;
+            }, 50);
+        });
+        
+        // Effetto parallax leggero
+        document.addEventListener('mousemove', function(e) {
+            const container = document.querySelector('.error-container');
+            const x = (e.clientX / window.innerWidth) * 10 - 5;
+            const y = (e.clientY / window.innerHeight) * 10 - 5;
+            
+            container.style.transform = `translate(${x}px, ${y}px) scale(1)`;
+        });
+    </script>
+</body>
+</html>

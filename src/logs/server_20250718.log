@@ -1,0 +1,1237 @@
+2025-07-18 14:02:25,899 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:02:25,900 - HTTPServer - INFO - Document root: c:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:02:38,120 - HTTPServer - INFO - Richiesta da 127.0.0.1:54890
+2025-07-18 14:02:38,121 - HTTPServer - INFO - GET /?id=a1e5be2c-9292-448b-b9b6-a05ee572a990&vscodeBrowserReqId=1752840157802 da 127.0.0.1
+2025-07-18 14:02:38,172 - HTTPServer - INFO - Risposta: 200 (10142 bytes)
+2025-07-18 14:02:38,383 - HTTPServer - INFO - Richiesta da 127.0.0.1:54894
+2025-07-18 14:02:38,383 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:02:38,403 - HTTPServer - INFO - Risposta: 200 (17080 bytes)
+2025-07-18 14:02:38,493 - HTTPServer - INFO - Richiesta da 127.0.0.1:54895
+2025-07-18 14:02:38,493 - HTTPServer - INFO - Richiesta da 127.0.0.1:54896
+2025-07-18 14:02:38,494 - HTTPServer - INFO - GET /icons/logo.png da 127.0.0.1
+2025-07-18 14:02:38,494 - HTTPServer - INFO - GET /icons/globe.png da 127.0.0.1
+2025-07-18 14:02:38,495 - HTTPServer - INFO - Risposta: 200 (40419 bytes)
+2025-07-18 14:02:38,506 - HTTPServer - INFO - Risposta: 200 (23916 bytes)
+2025-07-18 14:08:17,547 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:08:17,547 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:14:11,146 - HTTPServer - INFO - Richiesta da 127.0.0.1:55130
+2025-07-18 14:14:11,147 - HTTPServer - INFO - GET /?id=2dfd6e97-83c3-4966-ba6e-89dca5285bd1&vscodeBrowserReqId=1752840850830 da 127.0.0.1
+2025-07-18 14:14:11,148 - HTTPServer - INFO - Risposta: 200 (10146 bytes)
+2025-07-18 14:14:11,408 - HTTPServer - INFO - Richiesta da 127.0.0.1:55134
+2025-07-18 14:14:11,409 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:14:11,409 - HTTPServer - INFO - Risposta: 200 (17080 bytes)
+2025-07-18 14:14:11,471 - HTTPServer - INFO - Richiesta da 127.0.0.1:55135
+2025-07-18 14:14:11,471 - HTTPServer - INFO - Richiesta da 127.0.0.1:55136
+2025-07-18 14:14:11,471 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:14:11,471 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:14:11,473 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:14:11,473 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:33:58,388 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:33:58,389 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:34:21,903 - HTTPServer - INFO - Richiesta da 127.0.0.1:55993
+2025-07-18 14:34:21,903 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:34:21,904 - HTTPServer - INFO - Risposta: 200 (10276 bytes)
+2025-07-18 14:34:21,916 - HTTPServer - INFO - Richiesta da 127.0.0.1:55994
+2025-07-18 14:34:21,916 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:34:21,917 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:34:22,154 - HTTPServer - INFO - Richiesta da 127.0.0.1:55996
+2025-07-18 14:34:22,155 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:34:22,157 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:34:22,232 - HTTPServer - INFO - Richiesta da 127.0.0.1:55997
+2025-07-18 14:34:22,233 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:34:22,234 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:34:22,544 - HTTPServer - INFO - Richiesta da 127.0.0.1:56000
+2025-07-18 14:34:22,544 - HTTPServer - INFO - GET /favicon.ico da 127.0.0.1
+2025-07-18 14:34:22,545 - HTTPServer - INFO - Risposta: 404 (6761 bytes)
+2025-07-18 14:34:25,167 - HTTPServer - INFO - Richiesta da 127.0.0.1:56001
+2025-07-18 14:34:25,167 - HTTPServer - INFO - GET /stats da 127.0.0.1
+2025-07-18 14:34:25,167 - HTTPServer - INFO - Risposta: 200 (2609 bytes)
+2025-07-18 14:34:28,466 - HTTPServer - INFO - Richiesta da 127.0.0.1:56003
+2025-07-18 14:34:28,466 - HTTPServer - INFO - GET /stats da 127.0.0.1
+2025-07-18 14:34:28,467 - HTTPServer - INFO - Risposta: 200 (2609 bytes)
+2025-07-18 14:34:30,087 - HTTPServer - INFO - Richiesta da 127.0.0.1:56007
+2025-07-18 14:34:30,087 - HTTPServer - INFO - GET /header.html da 127.0.0.1
+2025-07-18 14:34:30,089 - HTTPServer - INFO - Risposta: 200 (8524 bytes)
+2025-07-18 14:34:30,392 - HTTPServer - INFO - Richiesta da 127.0.0.1:56014
+2025-07-18 14:34:30,392 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:34:30,393 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:34:30,427 - HTTPServer - INFO - Richiesta da 127.0.0.1:56015
+2025-07-18 14:34:30,427 - HTTPServer - INFO - Richiesta da 127.0.0.1:56017
+2025-07-18 14:34:30,427 - HTTPServer - INFO - GET /icons/header.svg da 127.0.0.1
+2025-07-18 14:34:30,427 - HTTPServer - INFO - Richiesta da 127.0.0.1:56016
+2025-07-18 14:34:30,428 - HTTPServer - INFO - Richiesta da 127.0.0.1:56018
+2025-07-18 14:34:30,428 - HTTPServer - INFO - GET /icons/header_request_raw.svg da 127.0.0.1
+2025-07-18 14:34:30,428 - HTTPServer - INFO - Richiesta da 127.0.0.1:56019
+2025-07-18 14:34:30,429 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:34:30,429 - HTTPServer - INFO - GET /icons/header_response_raw.svg da 127.0.0.1
+2025-07-18 14:34:30,429 - HTTPServer - INFO - GET /icons/header_response.svg da 127.0.0.1
+2025-07-18 14:34:30,430 - HTTPServer - INFO - Risposta: 200 (515 bytes)
+2025-07-18 14:34:30,431 - HTTPServer - INFO - Risposta: 200 (600 bytes)
+2025-07-18 14:34:30,433 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:34:30,434 - HTTPServer - INFO - Risposta: 200 (615 bytes)
+2025-07-18 14:34:30,434 - HTTPServer - INFO - Risposta: 200 (685 bytes)
+2025-07-18 14:34:30,759 - HTTPServer - INFO - Richiesta da 127.0.0.1:56022
+2025-07-18 14:34:30,759 - HTTPServer - INFO - GET /icons/header.svg da 127.0.0.1
+2025-07-18 14:34:30,760 - HTTPServer - INFO - Risposta: 200 (515 bytes)
+2025-07-18 14:34:38,868 - HTTPServer - INFO - Richiesta da 127.0.0.1:56024
+2025-07-18 14:34:38,869 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:34:38,870 - HTTPServer - INFO - Risposta: 200 (10276 bytes)
+2025-07-18 14:34:39,173 - HTTPServer - INFO - Richiesta da 127.0.0.1:56032
+2025-07-18 14:34:39,173 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:34:39,174 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:34:39,202 - HTTPServer - INFO - Richiesta da 127.0.0.1:56033
+2025-07-18 14:34:39,202 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:34:39,202 - HTTPServer - INFO - Richiesta da 127.0.0.1:56034
+2025-07-18 14:34:39,203 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:34:39,204 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:34:39,205 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:34:40,419 - HTTPServer - INFO - Richiesta da 127.0.0.1:56038
+2025-07-18 14:34:40,419 - HTTPServer - INFO - GET /intro.html da 127.0.0.1
+2025-07-18 14:34:40,422 - HTTPServer - INFO - Risposta: 200 (12951 bytes)
+2025-07-18 14:34:40,514 - HTTPServer - INFO - Richiesta da 127.0.0.1:56041
+2025-07-18 14:34:40,514 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:34:40,516 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:34:40,684 - HTTPServer - INFO - Richiesta da 127.0.0.1:56042
+2025-07-18 14:34:40,684 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:34:40,685 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:34:40,748 - HTTPServer - INFO - Richiesta da 127.0.0.1:56043
+2025-07-18 14:34:40,749 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:34:40,752 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:34:40,762 - HTTPServer - INFO - Richiesta da 127.0.0.1:56044
+2025-07-18 14:34:40,762 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:34:40,766 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:34:47,791 - HTTPServer - INFO - Richiesta da 127.0.0.1:56048
+2025-07-18 14:34:47,792 - HTTPServer - INFO - GET /header.html da 127.0.0.1
+2025-07-18 14:34:47,792 - HTTPServer - INFO - Risposta: 200 (8524 bytes)
+2025-07-18 14:34:47,884 - HTTPServer - INFO - Richiesta da 127.0.0.1:56055
+2025-07-18 14:34:47,884 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:34:47,888 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:34:48,054 - HTTPServer - INFO - Richiesta da 127.0.0.1:56056
+2025-07-18 14:34:48,055 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:34:48,058 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:34:48,135 - HTTPServer - INFO - Richiesta da 127.0.0.1:56057
+2025-07-18 14:34:48,135 - HTTPServer - INFO - Richiesta da 127.0.0.1:56058
+2025-07-18 14:34:48,135 - HTTPServer - INFO - Richiesta da 127.0.0.1:56059
+2025-07-18 14:34:48,136 - HTTPServer - INFO - GET /icons/header.svg da 127.0.0.1
+2025-07-18 14:34:48,136 - HTTPServer - INFO - GET /icons/header_request_raw.svg da 127.0.0.1
+2025-07-18 14:34:48,136 - HTTPServer - INFO - Richiesta da 127.0.0.1:56060
+2025-07-18 14:34:48,136 - HTTPServer - INFO - GET /icons/header_response_raw.svg da 127.0.0.1
+2025-07-18 14:34:48,137 - HTTPServer - INFO - GET /icons/header_response.svg da 127.0.0.1
+2025-07-18 14:34:48,139 - HTTPServer - INFO - Risposta: 200 (600 bytes)
+2025-07-18 14:34:48,140 - HTTPServer - INFO - Risposta: 200 (615 bytes)
+2025-07-18 14:34:48,140 - HTTPServer - INFO - Risposta: 200 (515 bytes)
+2025-07-18 14:34:48,141 - HTTPServer - INFO - Risposta: 200 (685 bytes)
+2025-07-18 14:34:50,888 - HTTPServer - INFO - Richiesta da 127.0.0.1:56064
+2025-07-18 14:34:50,889 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:34:50,890 - HTTPServer - INFO - Risposta: 200 (10276 bytes)
+2025-07-18 14:34:50,981 - HTTPServer - INFO - Richiesta da 127.0.0.1:56067
+2025-07-18 14:34:50,981 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:34:50,983 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:34:51,151 - HTTPServer - INFO - Richiesta da 127.0.0.1:56068
+2025-07-18 14:34:51,153 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:34:51,154 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:34:51,214 - HTTPServer - INFO - Richiesta da 127.0.0.1:56069
+2025-07-18 14:34:51,214 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:34:51,216 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:35:48,980 - HTTPServer - INFO - Richiesta da 127.0.0.1:56070
+2025-07-18 14:35:48,980 - HTTPServer - INFO - GET /intro.html da 127.0.0.1
+2025-07-18 14:35:48,983 - HTTPServer - INFO - Risposta: 200 (12951 bytes)
+2025-07-18 14:35:49,289 - HTTPServer - INFO - Richiesta da 127.0.0.1:56082
+2025-07-18 14:35:49,290 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:35:49,290 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:35:49,323 - HTTPServer - INFO - Richiesta da 127.0.0.1:56083
+2025-07-18 14:35:49,323 - HTTPServer - INFO - Richiesta da 127.0.0.1:56084
+2025-07-18 14:35:49,323 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:35:49,323 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:35:49,325 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:35:49,326 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:36:00,663 - HTTPServer - INFO - Richiesta da 127.0.0.1:56088
+2025-07-18 14:36:00,663 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:36:00,664 - HTTPServer - INFO - Risposta: 200 (10276 bytes)
+2025-07-18 14:36:00,744 - HTTPServer - INFO - Richiesta da 127.0.0.1:56091
+2025-07-18 14:36:00,745 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:36:00,746 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:36:00,935 - HTTPServer - INFO - Richiesta da 127.0.0.1:56092
+2025-07-18 14:36:00,935 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:36:00,936 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:36:00,997 - HTTPServer - INFO - Richiesta da 127.0.0.1:56093
+2025-07-18 14:36:00,997 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:36:00,998 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:36:05,208 - HTTPServer - INFO - Richiesta da 127.0.0.1:56094
+2025-07-18 14:36:05,208 - HTTPServer - INFO - GET /server.html da 127.0.0.1
+2025-07-18 14:36:05,209 - HTTPServer - INFO - Risposta: 200 (16378 bytes)
+2025-07-18 14:36:05,521 - HTTPServer - INFO - Richiesta da 127.0.0.1:56100
+2025-07-18 14:36:05,521 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:36:05,523 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:36:05,568 - HTTPServer - INFO - Richiesta da 127.0.0.1:56101
+2025-07-18 14:36:05,568 - HTTPServer - INFO - Richiesta da 127.0.0.1:56102
+2025-07-18 14:36:05,568 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:36:05,569 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:36:05,571 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:36:05,572 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:36:05,894 - HTTPServer - INFO - Richiesta da 127.0.0.1:56105
+2025-07-18 14:36:05,895 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:36:05,895 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:37:52,094 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:37:52,096 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:37:57,220 - HTTPServer - INFO - Richiesta da 127.0.0.1:56151
+2025-07-18 14:37:57,220 - HTTPServer - INFO - GET /server.html da 127.0.0.1
+2025-07-18 14:37:57,222 - HTTPServer - INFO - Risposta: 200 (16378 bytes)
+2025-07-18 14:37:57,237 - HTTPServer - INFO - Richiesta da 127.0.0.1:56152
+2025-07-18 14:37:57,238 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:37:57,239 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:37:57,488 - HTTPServer - INFO - Richiesta da 127.0.0.1:56154
+2025-07-18 14:37:57,488 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:37:57,490 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:37:57,549 - HTTPServer - INFO - Richiesta da 127.0.0.1:56155
+2025-07-18 14:37:57,549 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:37:57,550 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:37:57,861 - HTTPServer - INFO - Richiesta da 127.0.0.1:56158
+2025-07-18 14:37:57,863 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:37:57,864 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:37:58,128 - HTTPServer - INFO - Richiesta da 127.0.0.1:56160
+2025-07-18 14:37:58,128 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:37:58,130 - HTTPServer - INFO - Risposta: 200 (10276 bytes)
+2025-07-18 14:37:58,281 - HTTPServer - INFO - Richiesta da 127.0.0.1:56164
+2025-07-18 14:37:58,282 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:37:58,283 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:37:58,454 - HTTPServer - INFO - Richiesta da 127.0.0.1:56165
+2025-07-18 14:37:58,454 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:37:58,454 - HTTPServer - INFO - Richiesta da 127.0.0.1:56166
+2025-07-18 14:37:58,454 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:37:58,456 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:37:58,457 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:38:09,635 - HTTPServer - INFO - Richiesta da 127.0.0.1:56167
+2025-07-18 14:38:09,635 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:38:09,636 - HTTPServer - INFO - Risposta: 200 (10276 bytes)
+2025-07-18 14:38:09,939 - HTTPServer - INFO - Richiesta da 127.0.0.1:56174
+2025-07-18 14:38:09,939 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:38:09,940 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:38:09,970 - HTTPServer - INFO - Richiesta da 127.0.0.1:56175
+2025-07-18 14:38:09,970 - HTTPServer - INFO - Richiesta da 127.0.0.1:56176
+2025-07-18 14:38:09,970 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:38:09,970 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:38:09,973 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:38:09,973 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:38:47,755 - HTTPServer - INFO - Richiesta da 127.0.0.1:56187
+2025-07-18 14:38:47,756 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:38:47,822 - HTTPServer - INFO - Risposta: 200 (10220 bytes)
+2025-07-18 14:39:43,282 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:39:43,282 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:39:45,975 - HTTPServer - INFO - Richiesta da 127.0.0.1:56213
+2025-07-18 14:39:45,976 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:39:46,031 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:39:46,046 - HTTPServer - INFO - Richiesta da 127.0.0.1:56214
+2025-07-18 14:39:46,047 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:39:46,049 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:39:46,241 - HTTPServer - INFO - Richiesta da 127.0.0.1:56217
+2025-07-18 14:39:46,241 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:39:46,242 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:39:46,366 - HTTPServer - INFO - Richiesta da 127.0.0.1:56218
+2025-07-18 14:39:46,366 - HTTPServer - INFO - Richiesta da 127.0.0.1:56219
+2025-07-18 14:39:46,366 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:39:46,367 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:39:46,368 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:39:46,368 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:39:48,689 - HTTPServer - INFO - Richiesta da 127.0.0.1:56222
+2025-07-18 14:39:48,689 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:39:48,690 - HTTPServer - ERROR - Errore nel gestire il client ('127.0.0.1', 56222): cannot access local variable 'body' where it is not associated with a value
+2025-07-18 14:39:58,315 - HTTPServer - INFO - Richiesta da 127.0.0.1:56223
+2025-07-18 14:39:58,315 - HTTPServer - INFO - GET /intro.html da 127.0.0.1
+2025-07-18 14:39:58,318 - HTTPServer - INFO - Risposta: 200 (12951 bytes)
+2025-07-18 14:39:58,627 - HTTPServer - INFO - Richiesta da 127.0.0.1:56228
+2025-07-18 14:39:58,627 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:39:58,628 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:39:58,660 - HTTPServer - INFO - Richiesta da 127.0.0.1:56229
+2025-07-18 14:39:58,660 - HTTPServer - INFO - Richiesta da 127.0.0.1:56230
+2025-07-18 14:39:58,661 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:39:58,661 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:39:58,663 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:39:58,663 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:40:01,605 - HTTPServer - INFO - Richiesta da 127.0.0.1:56236
+2025-07-18 14:40:01,605 - HTTPServer - INFO - GET /server.html da 127.0.0.1
+2025-07-18 14:40:01,606 - HTTPServer - INFO - Risposta: 200 (16378 bytes)
+2025-07-18 14:40:01,745 - HTTPServer - INFO - Richiesta da 127.0.0.1:56239
+2025-07-18 14:40:01,745 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:40:01,746 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:40:01,855 - HTTPServer - INFO - Richiesta da 127.0.0.1:56240
+2025-07-18 14:40:01,856 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:40:01,856 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:40:01,935 - HTTPServer - INFO - Richiesta da 127.0.0.1:56241
+2025-07-18 14:40:01,935 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:40:01,938 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:40:02,586 - HTTPServer - INFO - Richiesta da 127.0.0.1:56242
+2025-07-18 14:40:02,587 - HTTPServer - INFO - GET /header.html da 127.0.0.1
+2025-07-18 14:40:02,588 - HTTPServer - INFO - Risposta: 200 (8524 bytes)
+2025-07-18 14:40:02,900 - HTTPServer - INFO - Richiesta da 127.0.0.1:56249
+2025-07-18 14:40:02,900 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:40:02,902 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:40:02,916 - HTTPServer - INFO - Richiesta da 127.0.0.1:56250
+2025-07-18 14:40:02,916 - HTTPServer - INFO - Richiesta da 127.0.0.1:56251
+2025-07-18 14:40:02,917 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:40:02,917 - HTTPServer - INFO - Richiesta da 127.0.0.1:56252
+2025-07-18 14:40:02,917 - HTTPServer - INFO - GET /icons/header.svg da 127.0.0.1
+2025-07-18 14:40:02,918 - HTTPServer - INFO - Richiesta da 127.0.0.1:56253
+2025-07-18 14:40:02,918 - HTTPServer - INFO - GET /icons/header_request_raw.svg da 127.0.0.1
+2025-07-18 14:40:02,918 - HTTPServer - INFO - GET /icons/header_response_raw.svg da 127.0.0.1
+2025-07-18 14:40:02,919 - HTTPServer - INFO - Richiesta da 127.0.0.1:56254
+2025-07-18 14:40:02,921 - HTTPServer - INFO - GET /icons/header_response.svg da 127.0.0.1
+2025-07-18 14:40:02,926 - HTTPServer - INFO - Risposta: 200 (615 bytes)
+2025-07-18 14:40:02,926 - HTTPServer - INFO - Risposta: 200 (515 bytes)
+2025-07-18 14:40:02,927 - HTTPServer - INFO - Risposta: 200 (600 bytes)
+2025-07-18 14:40:02,927 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:40:02,928 - HTTPServer - INFO - Risposta: 200 (685 bytes)
+2025-07-18 14:40:22,975 - HTTPServer - INFO - Richiesta da 127.0.0.1:56264
+2025-07-18 14:40:22,976 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:40:22,977 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:40:23,054 - HTTPServer - INFO - Richiesta da 127.0.0.1:56268
+2025-07-18 14:40:23,054 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:40:23,055 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:40:23,241 - HTTPServer - INFO - Richiesta da 127.0.0.1:56269
+2025-07-18 14:40:23,241 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:40:23,242 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:40:23,304 - HTTPServer - INFO - Richiesta da 127.0.0.1:56270
+2025-07-18 14:40:23,304 - HTTPServer - INFO - Richiesta da 127.0.0.1:56271
+2025-07-18 14:40:23,304 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:40:23,304 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:40:23,305 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:40:23,306 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:40:25,320 - HTTPServer - INFO - Richiesta da 127.0.0.1:56272
+2025-07-18 14:40:25,322 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:40:25,322 - HTTPServer - ERROR - Errore nel gestire il client ('127.0.0.1', 56272): cannot access local variable 'body' where it is not associated with a value
+2025-07-18 14:42:15,533 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:42:15,533 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:42:19,153 - HTTPServer - INFO - Richiesta da 127.0.0.1:56334
+2025-07-18 14:42:19,153 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:42:19,154 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:42:19,172 - HTTPServer - INFO - Richiesta da 127.0.0.1:56335
+2025-07-18 14:42:19,172 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:42:19,176 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:42:19,419 - HTTPServer - INFO - Richiesta da 127.0.0.1:56338
+2025-07-18 14:42:19,420 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:42:19,422 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:42:19,481 - HTTPServer - INFO - Richiesta da 127.0.0.1:56339
+2025-07-18 14:42:19,481 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:42:19,482 - HTTPServer - INFO - Richiesta da 127.0.0.1:56340
+2025-07-18 14:42:19,482 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:42:19,483 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:42:19,484 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:42:19,809 - HTTPServer - INFO - Richiesta da 127.0.0.1:56343
+2025-07-18 14:42:19,809 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:42:19,812 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:42:21,494 - HTTPServer - INFO - Richiesta da 127.0.0.1:56344
+2025-07-18 14:42:21,494 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:42:21,495 - HTTPServer - ERROR - Errore nel gestire il client ('127.0.0.1', 56344): cannot access local variable 'body' where it is not associated with a value
+2025-07-18 14:42:31,274 - HTTPServer - INFO - Richiesta da 127.0.0.1:56353
+2025-07-18 14:42:31,274 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:42:31,275 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:42:31,292 - HTTPServer - INFO - Richiesta da 127.0.0.1:56354
+2025-07-18 14:42:31,293 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:42:31,294 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:42:31,540 - HTTPServer - INFO - Richiesta da 127.0.0.1:56357
+2025-07-18 14:42:31,540 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:42:31,540 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:42:31,602 - HTTPServer - INFO - Richiesta da 127.0.0.1:56358
+2025-07-18 14:42:31,602 - HTTPServer - INFO - Richiesta da 127.0.0.1:56359
+2025-07-18 14:42:31,602 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:42:31,602 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:42:31,604 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:42:31,604 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:42:31,927 - HTTPServer - INFO - Richiesta da 127.0.0.1:56363
+2025-07-18 14:42:31,927 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:42:31,928 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:42:33,613 - HTTPServer - INFO - Richiesta da 127.0.0.1:56364
+2025-07-18 14:42:33,615 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:42:33,616 - HTTPServer - ERROR - Errore nel gestire il client ('127.0.0.1', 56364): cannot access local variable 'body' where it is not associated with a value
+2025-07-18 14:42:36,284 - HTTPServer - INFO - Richiesta da 127.0.0.1:56368
+2025-07-18 14:42:36,285 - HTTPServer - INFO - GET /stats da 127.0.0.1
+2025-07-18 14:42:36,285 - HTTPServer - INFO - Risposta: 200 (2936 bytes)
+2025-07-18 14:42:39,015 - HTTPServer - INFO - Richiesta da 127.0.0.1:56369
+2025-07-18 14:42:39,016 - HTTPServer - INFO - GET /header.html da 127.0.0.1
+2025-07-18 14:42:39,017 - HTTPServer - INFO - Risposta: 200 (8524 bytes)
+2025-07-18 14:42:39,050 - HTTPServer - INFO - Richiesta da 127.0.0.1:56370
+2025-07-18 14:42:39,051 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:42:39,053 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:42:39,360 - HTTPServer - INFO - Richiesta da 127.0.0.1:56377
+2025-07-18 14:42:39,360 - HTTPServer - INFO - Richiesta da 127.0.0.1:56378
+2025-07-18 14:42:39,360 - HTTPServer - INFO - Richiesta da 127.0.0.1:56379
+2025-07-18 14:42:39,360 - HTTPServer - INFO - Richiesta da 127.0.0.1:56380
+2025-07-18 14:42:39,360 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:42:39,360 - HTTPServer - INFO - Richiesta da 127.0.0.1:56381
+2025-07-18 14:42:39,362 - HTTPServer - INFO - GET /icons/header.svg da 127.0.0.1
+2025-07-18 14:42:39,362 - HTTPServer - INFO - GET /icons/header_request_raw.svg da 127.0.0.1
+2025-07-18 14:42:39,362 - HTTPServer - INFO - GET /icons/header_response_raw.svg da 127.0.0.1
+2025-07-18 14:42:39,362 - HTTPServer - INFO - GET /icons/header_response.svg da 127.0.0.1
+2025-07-18 14:42:39,364 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:42:39,365 - HTTPServer - INFO - Risposta: 200 (600 bytes)
+2025-07-18 14:42:39,365 - HTTPServer - INFO - Risposta: 200 (515 bytes)
+2025-07-18 14:42:39,365 - HTTPServer - INFO - Risposta: 200 (685 bytes)
+2025-07-18 14:42:39,366 - HTTPServer - INFO - Risposta: 200 (615 bytes)
+2025-07-18 14:42:39,841 - HTTPServer - INFO - Richiesta da 127.0.0.1:56385
+2025-07-18 14:42:39,843 - HTTPServer - INFO - GET /server.html da 127.0.0.1
+2025-07-18 14:42:39,844 - HTTPServer - INFO - Risposta: 200 (16378 bytes)
+2025-07-18 14:42:39,950 - HTTPServer - INFO - Richiesta da 127.0.0.1:56388
+2025-07-18 14:42:39,951 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:42:39,952 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:42:40,094 - HTTPServer - INFO - Richiesta da 127.0.0.1:56389
+2025-07-18 14:42:40,094 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:42:40,095 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:42:40,185 - HTTPServer - INFO - Richiesta da 127.0.0.1:56390
+2025-07-18 14:42:40,186 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:42:40,186 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:42:42,509 - HTTPServer - INFO - Richiesta da 127.0.0.1:56391
+2025-07-18 14:42:42,509 - HTTPServer - INFO - GET /intro.html da 127.0.0.1
+2025-07-18 14:42:42,511 - HTTPServer - INFO - Risposta: 200 (12951 bytes)
+2025-07-18 14:42:42,818 - HTTPServer - INFO - Richiesta da 127.0.0.1:56395
+2025-07-18 14:42:42,818 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:42:42,819 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:42:42,849 - HTTPServer - INFO - Richiesta da 127.0.0.1:56396
+2025-07-18 14:42:42,849 - HTTPServer - INFO - Richiesta da 127.0.0.1:56397
+2025-07-18 14:42:42,849 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:42:42,849 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:42:42,851 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:42:42,851 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:42:46,730 - HTTPServer - INFO - Richiesta da 127.0.0.1:56402
+2025-07-18 14:42:46,730 - HTTPServer - INFO - GET /server.html da 127.0.0.1
+2025-07-18 14:42:46,731 - HTTPServer - INFO - Risposta: 200 (16378 bytes)
+2025-07-18 14:42:46,844 - HTTPServer - INFO - Richiesta da 127.0.0.1:56405
+2025-07-18 14:42:46,845 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:42:46,846 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:42:46,985 - HTTPServer - INFO - Richiesta da 127.0.0.1:56406
+2025-07-18 14:42:46,985 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:42:46,986 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:42:47,064 - HTTPServer - INFO - Richiesta da 127.0.0.1:56407
+2025-07-18 14:42:47,064 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:42:47,065 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:42:47,785 - HTTPServer - INFO - Richiesta da 127.0.0.1:56408
+2025-07-18 14:42:47,786 - HTTPServer - INFO - GET /stats da 127.0.0.1
+2025-07-18 14:42:47,786 - HTTPServer - INFO - Risposta: 200 (2938 bytes)
+2025-07-18 14:42:50,945 - HTTPServer - INFO - Richiesta da 127.0.0.1:56410
+2025-07-18 14:42:50,947 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:42:50,949 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:42:51,259 - HTTPServer - INFO - Richiesta da 127.0.0.1:56415
+2025-07-18 14:42:51,259 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:42:51,260 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:42:51,294 - HTTPServer - INFO - Richiesta da 127.0.0.1:56416
+2025-07-18 14:42:51,295 - HTTPServer - INFO - Richiesta da 127.0.0.1:56417
+2025-07-18 14:42:51,295 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:42:51,295 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:42:51,295 - HTTPServer - INFO - Richiesta da 127.0.0.1:56418
+2025-07-18 14:42:51,296 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:42:51,297 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:42:51,297 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:42:51,298 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:42:53,617 - HTTPServer - INFO - Richiesta da 127.0.0.1:56421
+2025-07-18 14:42:53,618 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:42:53,618 - HTTPServer - ERROR - Errore nel gestire il client ('127.0.0.1', 56421): cannot access local variable 'body' where it is not associated with a value
+2025-07-18 14:43:16,283 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:43:16,285 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:43:19,501 - HTTPServer - INFO - Richiesta da 127.0.0.1:56431
+2025-07-18 14:43:19,502 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:43:19,504 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:43:19,530 - HTTPServer - INFO - Richiesta da 127.0.0.1:56432
+2025-07-18 14:43:19,530 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:43:19,534 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:43:19,767 - HTTPServer - INFO - Richiesta da 127.0.0.1:56435
+2025-07-18 14:43:19,768 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:43:19,769 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:43:19,845 - HTTPServer - INFO - Richiesta da 127.0.0.1:56436
+2025-07-18 14:43:19,845 - HTTPServer - INFO - Richiesta da 127.0.0.1:56437
+2025-07-18 14:43:19,845 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:43:19,845 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:43:19,846 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:43:19,847 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:43:22,169 - HTTPServer - INFO - Richiesta da 127.0.0.1:56442
+2025-07-18 14:43:22,169 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:43:22,169 - HTTPServer - WARNING - Metodo HEAD non supportato per /
+2025-07-18 14:43:22,170 - HTTPServer - INFO - Risposta: 405 (678 bytes)
+2025-07-18 14:44:17,465 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:44:17,465 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:44:55,795 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:44:55,797 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:44:55,800 - HTTPServer - INFO - Server avviato su http://localhost:8080
+2025-07-18 14:44:55,800 - HTTPServer - INFO - Serving files from: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:44:55,801 - HTTPServer - INFO - Statistiche disponibili su: http://localhost:8080/stats
+2025-07-18 14:45:06,204 - HTTPServer - INFO - Richiesta da 127.0.0.1:56499
+2025-07-18 14:45:06,204 - HTTPServer - INFO - GET /?id=c3e68d85-199e-439c-bbaf-19b1be8b5acd&vscodeBrowserReqId=1752842705884 da 127.0.0.1
+2025-07-18 14:45:06,205 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:45:06,454 - HTTPServer - INFO - Richiesta da 127.0.0.1:56504
+2025-07-18 14:45:06,454 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:45:06,455 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:45:06,515 - HTTPServer - INFO - Richiesta da 127.0.0.1:56505
+2025-07-18 14:45:06,515 - HTTPServer - INFO - Richiesta da 127.0.0.1:56506
+2025-07-18 14:45:06,515 - HTTPServer - INFO - Richiesta da 127.0.0.1:56507
+2025-07-18 14:45:06,515 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:45:06,515 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:45:06,515 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:45:06,517 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:45:06,517 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:45:06,517 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:45:08,541 - HTTPServer - INFO - Richiesta da 127.0.0.1:56508
+2025-07-18 14:45:08,542 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:45:08,542 - HTTPServer - WARNING - Metodo HEAD non supportato per /
+2025-07-18 14:45:08,542 - HTTPServer - INFO - Risposta: 405 (678 bytes)
+2025-07-18 14:45:26,108 - HTTPServer - INFO - Richiesta da 127.0.0.1:56523
+2025-07-18 14:45:26,109 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:45:26,111 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:45:40,405 - HTTPServer - INFO - Richiesta da 127.0.0.1:56538
+2025-07-18 14:45:40,406 - HTTPServer - INFO - POST / da 127.0.0.1
+2025-07-18 14:45:40,406 - HTTPServer - WARNING - Metodo POST non supportato per /
+2025-07-18 14:45:40,406 - HTTPServer - INFO - Risposta: 405 (678 bytes)
+2025-07-18 14:46:22,706 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:46:22,707 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:46:22,711 - HTTPServer - INFO - Server avviato su http://localhost:8080
+2025-07-18 14:46:22,711 - HTTPServer - INFO - Serving files from: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:46:22,711 - HTTPServer - INFO - Statistiche disponibili su: http://localhost:8080/stats
+2025-07-18 14:46:30,185 - HTTPServer - INFO - Richiesta da 127.0.0.1:56569
+2025-07-18 14:46:30,185 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:46:30,188 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:46:30,213 - HTTPServer - INFO - Richiesta da 127.0.0.1:56570
+2025-07-18 14:46:30,214 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:46:30,215 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:46:30,436 - HTTPServer - INFO - Richiesta da 127.0.0.1:56575
+2025-07-18 14:46:30,437 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:46:30,443 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:46:30,528 - HTTPServer - INFO - Richiesta da 127.0.0.1:56576
+2025-07-18 14:46:30,528 - HTTPServer - INFO - Richiesta da 127.0.0.1:56577
+2025-07-18 14:46:30,529 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:46:30,529 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:46:30,530 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:46:30,530 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:46:32,866 - HTTPServer - INFO - Richiesta da 127.0.0.1:56581
+2025-07-18 14:46:32,867 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:46:32,867 - HTTPServer - WARNING - Metodo HEAD non supportato per /
+2025-07-18 14:46:32,867 - HTTPServer - INFO - Risposta: 405 (678 bytes)
+2025-07-18 14:47:28,235 - HTTPServer - INFO - Richiesta da 127.0.0.1:56582
+2025-07-18 14:47:28,235 - HTTPServer - INFO - GET /stats da 127.0.0.1
+2025-07-18 14:47:28,236 - HTTPServer - INFO - Risposta: 200 (2602 bytes)
+2025-07-18 14:47:32,838 - HTTPServer - INFO - Richiesta da 127.0.0.1:56640
+2025-07-18 14:47:32,839 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:47:32,840 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:47:33,146 - HTTPServer - INFO - Richiesta da 127.0.0.1:56653
+2025-07-18 14:47:33,146 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:47:33,147 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:47:33,193 - HTTPServer - INFO - Richiesta da 127.0.0.1:56654
+2025-07-18 14:47:33,193 - HTTPServer - INFO - Richiesta da 127.0.0.1:56655
+2025-07-18 14:47:33,194 - HTTPServer - INFO - Richiesta da 127.0.0.1:56656
+2025-07-18 14:47:33,194 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:47:33,194 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:47:33,194 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:47:33,195 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:47:33,195 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:47:33,196 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:47:33,555 - HTTPServer - INFO - Richiesta da 127.0.0.1:56661
+2025-07-18 14:47:33,555 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:47:33,555 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:47:35,238 - HTTPServer - INFO - Richiesta da 127.0.0.1:56662
+2025-07-18 14:47:35,239 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:47:35,239 - HTTPServer - WARNING - Metodo HEAD non supportato per /
+2025-07-18 14:47:35,239 - HTTPServer - INFO - Risposta: 405 (678 bytes)
+2025-07-18 14:47:55,714 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:47:55,714 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:47:55,719 - HTTPServer - INFO - Server avviato su http://localhost:8080
+2025-07-18 14:47:55,719 - HTTPServer - INFO - Serving files from: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:47:55,719 - HTTPServer - INFO - Statistiche disponibili su: http://localhost:8080/stats
+2025-07-18 14:48:07,424 - HTTPServer - INFO - Richiesta da 127.0.0.1:56717
+2025-07-18 14:48:07,425 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:48:07,425 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:48:07,455 - HTTPServer - INFO - Richiesta da 127.0.0.1:56718
+2025-07-18 14:48:07,457 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:48:07,458 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:48:07,675 - HTTPServer - INFO - Richiesta da 127.0.0.1:56722
+2025-07-18 14:48:07,675 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:48:07,676 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:48:07,769 - HTTPServer - INFO - Richiesta da 127.0.0.1:56723
+2025-07-18 14:48:07,769 - HTTPServer - INFO - Richiesta da 127.0.0.1:56724
+2025-07-18 14:48:07,770 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:48:07,770 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:48:07,771 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:48:07,771 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:48:10,103 - HTTPServer - INFO - Richiesta da 127.0.0.1:56727
+2025-07-18 14:48:10,103 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:48:10,103 - HTTPServer - WARNING - Metodo HEAD non supportato per /
+2025-07-18 14:48:10,104 - HTTPServer - INFO - Risposta: 405 (678 bytes)
+2025-07-18 14:48:14,666 - HTTPServer - INFO - Richiesta da 127.0.0.1:56729
+2025-07-18 14:48:14,666 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:48:14,666 - HTTPServer - WARNING - Metodo HEAD non supportato per /
+2025-07-18 14:48:14,667 - HTTPServer - INFO - Risposta: 405 (678 bytes)
+2025-07-18 14:48:19,289 - HTTPServer - INFO - Richiesta da 127.0.0.1:56728
+2025-07-18 14:48:19,289 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:48:19,290 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:48:19,597 - HTTPServer - INFO - Richiesta da 127.0.0.1:56742
+2025-07-18 14:48:19,597 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:48:19,598 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:48:19,618 - HTTPServer - INFO - Richiesta da 127.0.0.1:56743
+2025-07-18 14:48:19,619 - HTTPServer - INFO - Richiesta da 127.0.0.1:56744
+2025-07-18 14:48:19,619 - HTTPServer - INFO - Richiesta da 127.0.0.1:56745
+2025-07-18 14:48:19,619 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:48:19,620 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:48:19,620 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:48:19,622 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:48:19,622 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:48:19,623 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:48:19,960 - HTTPServer - INFO - Richiesta da 127.0.0.1:56748
+2025-07-18 14:48:19,961 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:48:19,962 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:48:21,897 - HTTPServer - INFO - Richiesta da 127.0.0.1:56749
+2025-07-18 14:48:21,897 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:48:21,897 - HTTPServer - WARNING - Metodo HEAD non supportato per /
+2025-07-18 14:48:21,898 - HTTPServer - INFO - Risposta: 405 (678 bytes)
+2025-07-18 14:52:49,914 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:52:49,914 - HTTPServer - INFO - Document root: c:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:52:49,919 - HTTPServer - INFO - Server avviato su http://localhost:8080
+2025-07-18 14:52:49,919 - HTTPServer - INFO - Serving files from: c:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:52:49,919 - HTTPServer - INFO - Statistiche disponibili su: http://localhost:8080/stats
+2025-07-18 14:53:04,208 - HTTPServer - INFO - Richiesta da 127.0.0.1:56988
+2025-07-18 14:53:04,209 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:53:04,209 - HTTPServer - WARNING - Metodo HEAD non supportato per /
+2025-07-18 14:53:04,209 - HTTPServer - INFO - Risposta: 405 (678 bytes)
+2025-07-18 14:53:18,684 - HTTPServer - INFO - Richiesta da 127.0.0.1:56999
+2025-07-18 14:53:18,685 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:53:18,686 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:53:18,707 - HTTPServer - INFO - Richiesta da 127.0.0.1:57000
+2025-07-18 14:53:18,707 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:53:18,708 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:53:18,948 - HTTPServer - INFO - Richiesta da 127.0.0.1:57003
+2025-07-18 14:53:18,949 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:53:18,950 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:53:19,011 - HTTPServer - INFO - Richiesta da 127.0.0.1:57004
+2025-07-18 14:53:19,011 - HTTPServer - INFO - Richiesta da 127.0.0.1:57005
+2025-07-18 14:53:19,011 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:53:19,011 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:53:19,012 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:53:19,013 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:53:19,339 - HTTPServer - INFO - Richiesta da 127.0.0.1:57008
+2025-07-18 14:53:19,340 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:53:19,341 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:53:21,020 - HTTPServer - INFO - Richiesta da 127.0.0.1:57011
+2025-07-18 14:53:21,021 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:53:21,021 - HTTPServer - WARNING - Metodo HEAD non supportato per /
+2025-07-18 14:53:21,021 - HTTPServer - INFO - Risposta: 405 (678 bytes)
+2025-07-18 14:53:21,490 - HTTPServer - INFO - Richiesta da 127.0.0.1:57010
+2025-07-18 14:53:21,490 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:53:21,491 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:53:35,042 - HTTPServer - INFO - Richiesta da 127.0.0.1:57026
+2025-07-18 14:53:35,043 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:53:35,043 - HTTPServer - WARNING - Metodo HEAD non supportato per /
+2025-07-18 14:53:35,043 - HTTPServer - INFO - Risposta: 405 (678 bytes)
+2025-07-18 14:54:02,862 - HTTPServer - INFO - Server inizializzato su localhost:8081
+2025-07-18 14:54:02,863 - HTTPServer - INFO - Document root: c:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:54:02,867 - HTTPServer - INFO - Server avviato su http://localhost:8081
+2025-07-18 14:54:02,867 - HTTPServer - INFO - Serving files from: c:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:54:02,867 - HTTPServer - INFO - Statistiche disponibili su: http://localhost:8081/stats
+2025-07-18 14:54:16,480 - HTTPServer - INFO - Richiesta da 127.0.0.1:57066
+2025-07-18 14:54:16,480 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:54:16,481 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 14:54:37,117 - HTTPServer - INFO - Richiesta da 127.0.0.1:57105
+2025-07-18 14:54:37,118 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:54:37,121 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:54:37,146 - HTTPServer - INFO - Richiesta da 127.0.0.1:57106
+2025-07-18 14:54:37,146 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:54:37,150 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:54:37,381 - HTTPServer - INFO - Richiesta da 127.0.0.1:57110
+2025-07-18 14:54:37,382 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:54:37,383 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:54:37,458 - HTTPServer - INFO - Richiesta da 127.0.0.1:57111
+2025-07-18 14:54:37,460 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:54:37,461 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:54:37,475 - HTTPServer - INFO - Richiesta da 127.0.0.1:57112
+2025-07-18 14:54:37,475 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:54:37,476 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:54:37,818 - HTTPServer - INFO - Richiesta da 127.0.0.1:57115
+2025-07-18 14:54:37,818 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:54:37,819 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:54:39,504 - HTTPServer - INFO - Richiesta da 127.0.0.1:57116
+2025-07-18 14:54:39,504 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:54:39,506 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 14:54:42,565 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:54:42,565 - HTTPServer - INFO - Document root: c:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:54:42,570 - HTTPServer - INFO - Server avviato su http://localhost:8080
+2025-07-18 14:54:42,570 - HTTPServer - INFO - Serving files from: c:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:54:42,570 - HTTPServer - INFO - Statistiche disponibili su: http://localhost:8080/stats
+2025-07-18 14:54:53,981 - HTTPServer - INFO - Richiesta da 127.0.0.1:57146
+2025-07-18 14:54:53,982 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:54:53,983 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:54:54,024 - HTTPServer - INFO - Richiesta da 127.0.0.1:57147
+2025-07-18 14:54:54,024 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:54:54,027 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:54:54,230 - HTTPServer - INFO - Richiesta da 127.0.0.1:57150
+2025-07-18 14:54:54,230 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:54:54,231 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:54:54,339 - HTTPServer - INFO - Richiesta da 127.0.0.1:57151
+2025-07-18 14:54:54,339 - HTTPServer - INFO - Richiesta da 127.0.0.1:57152
+2025-07-18 14:54:54,339 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:54:54,339 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:54:54,341 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:54:54,341 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:54:54,685 - HTTPServer - INFO - Richiesta da 127.0.0.1:57156
+2025-07-18 14:54:54,685 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:54:54,686 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:54:56,363 - HTTPServer - INFO - Richiesta da 127.0.0.1:57157
+2025-07-18 14:54:56,364 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:54:56,364 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 14:54:58,321 - HTTPServer - INFO - Richiesta da 127.0.0.1:57169
+2025-07-18 14:54:58,321 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:54:58,322 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 14:55:05,159 - HTTPServer - INFO - Richiesta da 127.0.0.1:57178
+2025-07-18 14:55:05,159 - HTTPServer - INFO - GET /?id=3d5ae2a8-7857-4b6a-81ca-590edbb72a83&vscodeBrowserReqId=1752843304844 da 127.0.0.1
+2025-07-18 14:55:05,160 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:55:05,407 - HTTPServer - INFO - Richiesta da 127.0.0.1:57183
+2025-07-18 14:55:05,407 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:55:05,408 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:55:05,470 - HTTPServer - INFO - Richiesta da 127.0.0.1:57184
+2025-07-18 14:55:05,470 - HTTPServer - INFO - Richiesta da 127.0.0.1:57186
+2025-07-18 14:55:05,470 - HTTPServer - INFO - Richiesta da 127.0.0.1:57185
+2025-07-18 14:55:05,471 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:55:05,471 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:55:05,471 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:55:05,472 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:55:05,473 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:55:05,473 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:55:07,492 - HTTPServer - INFO - Richiesta da 127.0.0.1:57187
+2025-07-18 14:55:07,493 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:55:07,493 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 14:57:01,986 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:57:01,986 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:57:01,991 - HTTPServer - INFO - Server avviato su http://localhost:8080
+2025-07-18 14:57:01,991 - HTTPServer - INFO - Serving files from: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:57:01,991 - HTTPServer - INFO - Statistiche disponibili su: http://localhost:8080/stats
+2025-07-18 14:57:11,637 - HTTPServer - INFO - Richiesta da 127.0.0.1:57220
+2025-07-18 14:57:11,638 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:57:11,640 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:57:11,656 - HTTPServer - INFO - Richiesta da 127.0.0.1:57221
+2025-07-18 14:57:11,656 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:57:11,657 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:57:11,902 - HTTPServer - INFO - Richiesta da 127.0.0.1:57229
+2025-07-18 14:57:11,902 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:57:11,903 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:57:11,966 - HTTPServer - INFO - Richiesta da 127.0.0.1:57230
+2025-07-18 14:57:11,967 - HTTPServer - INFO - Richiesta da 127.0.0.1:57231
+2025-07-18 14:57:11,967 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:57:11,967 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:57:11,968 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:57:11,968 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:57:12,288 - HTTPServer - INFO - Richiesta da 127.0.0.1:57234
+2025-07-18 14:57:12,288 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:57:12,289 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:57:13,982 - HTTPServer - INFO - Richiesta da 127.0.0.1:57236
+2025-07-18 14:57:13,982 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:57:13,984 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 14:57:17,953 - HTTPServer - INFO - Richiesta da 127.0.0.1:57240
+2025-07-18 14:57:17,953 - HTTPServer - INFO - GET /intro.html da 127.0.0.1
+2025-07-18 14:57:17,955 - HTTPServer - INFO - Risposta: 200 (12951 bytes)
+2025-07-18 14:57:18,018 - HTTPServer - INFO - Richiesta da 127.0.0.1:57243
+2025-07-18 14:57:18,019 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:57:18,020 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:57:18,218 - HTTPServer - INFO - Richiesta da 127.0.0.1:57244
+2025-07-18 14:57:18,220 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:57:18,221 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:57:18,282 - HTTPServer - INFO - Richiesta da 127.0.0.1:57245
+2025-07-18 14:57:18,284 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:57:18,286 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:57:21,817 - HTTPServer - INFO - Richiesta da 127.0.0.1:57246
+2025-07-18 14:57:21,818 - HTTPServer - INFO - GET /server.html da 127.0.0.1
+2025-07-18 14:57:21,819 - HTTPServer - INFO - Risposta: 200 (16378 bytes)
+2025-07-18 14:57:22,127 - HTTPServer - INFO - Richiesta da 127.0.0.1:57251
+2025-07-18 14:57:22,127 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:57:22,128 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:57:22,159 - HTTPServer - INFO - Richiesta da 127.0.0.1:57252
+2025-07-18 14:57:22,159 - HTTPServer - INFO - Richiesta da 127.0.0.1:57253
+2025-07-18 14:57:22,159 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:57:22,159 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:57:22,160 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:57:22,160 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:57:22,487 - HTTPServer - INFO - Richiesta da 127.0.0.1:57256
+2025-07-18 14:57:22,487 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:57:22,488 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:57:27,293 - HTTPServer - INFO - Richiesta da 127.0.0.1:57257
+2025-07-18 14:57:27,293 - HTTPServer - INFO - GET /header.html da 127.0.0.1
+2025-07-18 14:57:27,295 - HTTPServer - INFO - Risposta: 200 (8524 bytes)
+2025-07-18 14:57:27,607 - HTTPServer - INFO - Richiesta da 127.0.0.1:57266
+2025-07-18 14:57:27,608 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:57:27,608 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:57:27,642 - HTTPServer - INFO - Richiesta da 127.0.0.1:57267
+2025-07-18 14:57:27,642 - HTTPServer - INFO - Richiesta da 127.0.0.1:57268
+2025-07-18 14:57:27,642 - HTTPServer - INFO - Richiesta da 127.0.0.1:57269
+2025-07-18 14:57:27,643 - HTTPServer - INFO - Richiesta da 127.0.0.1:57270
+2025-07-18 14:57:27,643 - HTTPServer - INFO - GET /icons/header.svg da 127.0.0.1
+2025-07-18 14:57:27,644 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:57:27,645 - HTTPServer - INFO - GET /icons/header_request_raw.svg da 127.0.0.1
+2025-07-18 14:57:27,645 - HTTPServer - INFO - GET /icons/header_response_raw.svg da 127.0.0.1
+2025-07-18 14:57:27,645 - HTTPServer - INFO - Richiesta da 127.0.0.1:57271
+2025-07-18 14:57:27,646 - HTTPServer - INFO - GET /icons/header_response.svg da 127.0.0.1
+2025-07-18 14:57:27,648 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:57:27,649 - HTTPServer - INFO - Risposta: 200 (600 bytes)
+2025-07-18 14:57:27,649 - HTTPServer - INFO - Risposta: 200 (615 bytes)
+2025-07-18 14:57:27,649 - HTTPServer - INFO - Risposta: 200 (515 bytes)
+2025-07-18 14:57:27,650 - HTTPServer - INFO - Risposta: 200 (685 bytes)
+2025-07-18 14:57:27,982 - HTTPServer - INFO - Richiesta da 127.0.0.1:57274
+2025-07-18 14:57:27,983 - HTTPServer - INFO - GET /icons/header.svg da 127.0.0.1
+2025-07-18 14:57:27,984 - HTTPServer - INFO - Risposta: 200 (515 bytes)
+2025-07-18 14:57:31,284 - HTTPServer - INFO - Richiesta da 127.0.0.1:57275
+2025-07-18 14:57:31,285 - HTTPServer - INFO - GET /stats da 127.0.0.1
+2025-07-18 14:57:31,285 - HTTPServer - INFO - Risposta: 200 (2862 bytes)
+2025-07-18 14:57:33,736 - HTTPServer - INFO - Richiesta da 127.0.0.1:57281
+2025-07-18 14:57:33,737 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 14:57:33,738 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 14:57:34,046 - HTTPServer - INFO - Richiesta da 127.0.0.1:57286
+2025-07-18 14:57:34,046 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:57:34,047 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:57:34,061 - HTTPServer - INFO - Richiesta da 127.0.0.1:57287
+2025-07-18 14:57:34,063 - HTTPServer - INFO - Richiesta da 127.0.0.1:57288
+2025-07-18 14:57:34,063 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:57:34,063 - HTTPServer - INFO - Richiesta da 127.0.0.1:57289
+2025-07-18 14:57:34,063 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 14:57:34,063 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 14:57:34,064 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:57:34,065 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 14:57:34,065 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 14:57:37,217 - HTTPServer - INFO - Richiesta da 127.0.0.1:57292
+2025-07-18 14:57:37,217 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 14:57:37,218 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 14:58:08,798 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 14:58:08,799 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:58:08,802 - HTTPServer - INFO - Server avviato su http://localhost:8080
+2025-07-18 14:58:08,802 - HTTPServer - INFO - Serving files from: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 14:58:08,802 - HTTPServer - INFO - Statistiche disponibili su: http://localhost:8080/stats
+2025-07-18 14:58:12,420 - HTTPServer - INFO - Richiesta da 127.0.0.1:57321
+2025-07-18 14:58:12,421 - HTTPServer - INFO - GET /intro.html da 127.0.0.1
+2025-07-18 14:58:12,422 - HTTPServer - INFO - Risposta: 200 (12951 bytes)
+2025-07-18 14:58:12,448 - HTTPServer - INFO - Richiesta da 127.0.0.1:57322
+2025-07-18 14:58:12,448 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:58:12,450 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:58:12,668 - HTTPServer - INFO - Richiesta da 127.0.0.1:57324
+2025-07-18 14:58:12,668 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:58:12,670 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:58:12,760 - HTTPServer - INFO - Richiesta da 127.0.0.1:57325
+2025-07-18 14:58:12,762 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:58:12,762 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:58:13,090 - HTTPServer - INFO - Richiesta da 127.0.0.1:57328
+2025-07-18 14:58:13,090 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:58:13,092 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:58:13,952 - HTTPServer - INFO - Richiesta da 127.0.0.1:57329
+2025-07-18 14:58:13,954 - HTTPServer - INFO - GET /server.html da 127.0.0.1
+2025-07-18 14:58:13,957 - HTTPServer - INFO - Risposta: 200 (16378 bytes)
+2025-07-18 14:58:14,257 - HTTPServer - INFO - Richiesta da 127.0.0.1:57333
+2025-07-18 14:58:14,258 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:58:14,261 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:58:14,304 - HTTPServer - INFO - Richiesta da 127.0.0.1:57334
+2025-07-18 14:58:14,304 - HTTPServer - INFO - Richiesta da 127.0.0.1:57335
+2025-07-18 14:58:14,304 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:58:14,305 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 14:58:14,306 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:58:14,307 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 14:58:33,733 - HTTPServer - INFO - Richiesta da 127.0.0.1:57344
+2025-07-18 14:58:33,733 - HTTPServer - INFO - GET /header.html da 127.0.0.1
+2025-07-18 14:58:33,735 - HTTPServer - INFO - Risposta: 200 (8524 bytes)
+2025-07-18 14:58:33,810 - HTTPServer - INFO - Richiesta da 127.0.0.1:57349
+2025-07-18 14:58:33,810 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 14:58:33,812 - HTTPServer - INFO - Risposta: 200 (17395 bytes)
+2025-07-18 14:58:33,982 - HTTPServer - INFO - Richiesta da 127.0.0.1:57350
+2025-07-18 14:58:33,982 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 14:58:33,984 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 14:58:34,093 - HTTPServer - INFO - Richiesta da 127.0.0.1:57351
+2025-07-18 14:58:34,093 - HTTPServer - INFO - Richiesta da 127.0.0.1:57352
+2025-07-18 14:58:34,093 - HTTPServer - INFO - GET /icons/header.svg da 127.0.0.1
+2025-07-18 14:58:34,093 - HTTPServer - INFO - Richiesta da 127.0.0.1:57354
+2025-07-18 14:58:34,093 - HTTPServer - INFO - Richiesta da 127.0.0.1:57353
+2025-07-18 14:58:34,094 - HTTPServer - INFO - GET /icons/header_request_raw.svg da 127.0.0.1
+2025-07-18 14:58:34,094 - HTTPServer - INFO - GET /icons/header_response.svg da 127.0.0.1
+2025-07-18 14:58:34,095 - HTTPServer - INFO - GET /icons/header_response_raw.svg da 127.0.0.1
+2025-07-18 14:58:34,097 - HTTPServer - INFO - Risposta: 200 (515 bytes)
+2025-07-18 14:58:34,097 - HTTPServer - INFO - Risposta: 200 (600 bytes)
+2025-07-18 14:58:34,097 - HTTPServer - INFO - Risposta: 200 (685 bytes)
+2025-07-18 14:58:34,099 - HTTPServer - INFO - Risposta: 200 (615 bytes)
+2025-07-18 14:58:49,966 - HTTPServer - INFO - Richiesta da 127.0.0.1:57361
+2025-07-18 14:58:49,966 - HTTPServer - INFO - GET /stats da 127.0.0.1
+2025-07-18 14:58:49,966 - HTTPServer - INFO - Risposta: 200 (2920 bytes)
+2025-07-18 15:03:11,866 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 15:03:11,867 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 15:03:11,871 - HTTPServer - INFO - Server avviato su http://localhost:8080
+2025-07-18 15:03:11,871 - HTTPServer - INFO - Serving files from: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 15:03:11,871 - HTTPServer - INFO - Statistiche disponibili su: http://localhost:8080/stats
+2025-07-18 15:03:15,166 - HTTPServer - INFO - Richiesta da 127.0.0.1:57528
+2025-07-18 15:03:15,168 - HTTPServer - INFO - GET /stats da 127.0.0.1
+2025-07-18 15:03:15,168 - HTTPServer - INFO - Risposta: 200 (2082 bytes)
+2025-07-18 15:03:17,174 - HTTPServer - INFO - Richiesta da 127.0.0.1:57529
+2025-07-18 15:03:17,174 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:03:17,176 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:03:17,198 - HTTPServer - INFO - Richiesta da 127.0.0.1:57530
+2025-07-18 15:03:17,198 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:03:17,201 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:03:17,505 - HTTPServer - INFO - Richiesta da 127.0.0.1:57534
+2025-07-18 15:03:17,505 - HTTPServer - INFO - Richiesta da 127.0.0.1:57535
+2025-07-18 15:03:17,505 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 15:03:17,506 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:03:17,506 - HTTPServer - INFO - Richiesta da 127.0.0.1:57536
+2025-07-18 15:03:17,506 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 15:03:17,507 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:03:17,507 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 15:03:17,507 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 15:03:19,833 - HTTPServer - INFO - Richiesta da 127.0.0.1:57539
+2025-07-18 15:03:19,834 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 15:03:19,835 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 15:03:23,222 - HTTPServer - INFO - Richiesta da 127.0.0.1:57540
+2025-07-18 15:03:23,224 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:03:23,225 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:03:25,323 - HTTPServer - INFO - Richiesta da 127.0.0.1:57545
+2025-07-18 15:03:25,325 - HTTPServer - INFO - GET /stats da 127.0.0.1
+2025-07-18 15:03:25,325 - HTTPServer - INFO - Risposta: 200 (2533 bytes)
+2025-07-18 15:03:33,997 - HTTPServer - INFO - Richiesta da 127.0.0.1:57546
+2025-07-18 15:03:33,998 - HTTPServer - INFO - GET /intro.html da 127.0.0.1
+2025-07-18 15:03:34,000 - HTTPServer - INFO - Risposta: 200 (12951 bytes)
+2025-07-18 15:03:34,030 - HTTPServer - INFO - Richiesta da 127.0.0.1:57547
+2025-07-18 15:03:34,030 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:03:34,034 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:03:34,342 - HTTPServer - INFO - Richiesta da 127.0.0.1:57568
+2025-07-18 15:03:34,342 - HTTPServer - INFO - Richiesta da 127.0.0.1:57569
+2025-07-18 15:03:34,342 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:03:34,344 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 15:03:34,345 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 15:03:34,346 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:03:43,558 - HTTPServer - INFO - Richiesta da 127.0.0.1:57584
+2025-07-18 15:03:43,558 - HTTPServer - INFO - GET /server.html da 127.0.0.1
+2025-07-18 15:03:43,558 - HTTPServer - INFO - Risposta: 200 (16378 bytes)
+2025-07-18 15:03:43,640 - HTTPServer - INFO - Richiesta da 127.0.0.1:57587
+2025-07-18 15:03:43,640 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:03:43,642 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:03:43,827 - HTTPServer - INFO - Richiesta da 127.0.0.1:57588
+2025-07-18 15:03:43,827 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:03:43,827 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:03:43,888 - HTTPServer - INFO - Richiesta da 127.0.0.1:57589
+2025-07-18 15:03:43,888 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 15:03:43,889 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 15:03:48,383 - HTTPServer - INFO - Richiesta da 127.0.0.1:57590
+2025-07-18 15:03:48,383 - HTTPServer - INFO - GET /header.html da 127.0.0.1
+2025-07-18 15:03:48,384 - HTTPServer - INFO - Risposta: 200 (8524 bytes)
+2025-07-18 15:03:48,684 - HTTPServer - INFO - Richiesta da 127.0.0.1:57598
+2025-07-18 15:03:48,685 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:03:48,686 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:03:48,718 - HTTPServer - INFO - Richiesta da 127.0.0.1:57599
+2025-07-18 15:03:48,719 - HTTPServer - INFO - Richiesta da 127.0.0.1:57602
+2025-07-18 15:03:48,719 - HTTPServer - INFO - Richiesta da 127.0.0.1:57601
+2025-07-18 15:03:48,719 - HTTPServer - INFO - Richiesta da 127.0.0.1:57600
+2025-07-18 15:03:48,720 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:03:48,720 - HTTPServer - INFO - Richiesta da 127.0.0.1:57603
+2025-07-18 15:03:48,720 - HTTPServer - INFO - GET /icons/header_response_raw.svg da 127.0.0.1
+2025-07-18 15:03:48,720 - HTTPServer - INFO - GET /icons/header_request_raw.svg da 127.0.0.1
+2025-07-18 15:03:48,720 - HTTPServer - INFO - GET /icons/header.svg da 127.0.0.1
+2025-07-18 15:03:48,721 - HTTPServer - INFO - GET /icons/header_response.svg da 127.0.0.1
+2025-07-18 15:03:48,724 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:03:48,724 - HTTPServer - INFO - Risposta: 200 (515 bytes)
+2025-07-18 15:03:48,725 - HTTPServer - INFO - Risposta: 200 (685 bytes)
+2025-07-18 15:03:48,725 - HTTPServer - INFO - Risposta: 200 (615 bytes)
+2025-07-18 15:03:48,725 - HTTPServer - INFO - Risposta: 200 (600 bytes)
+2025-07-18 15:03:51,615 - HTTPServer - INFO - Richiesta da 127.0.0.1:57608
+2025-07-18 15:03:51,616 - HTTPServer - INFO - GET /stats da 127.0.0.1
+2025-07-18 15:03:51,616 - HTTPServer - INFO - Risposta: 200 (2851 bytes)
+2025-07-18 15:03:56,773 - HTTPServer - INFO - Richiesta da 127.0.0.1:57609
+2025-07-18 15:03:56,774 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:03:56,775 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:03:56,797 - HTTPServer - INFO - Richiesta da 127.0.0.1:57610
+2025-07-18 15:03:56,797 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:03:56,802 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:03:57,106 - HTTPServer - INFO - Richiesta da 127.0.0.1:57614
+2025-07-18 15:03:57,106 - HTTPServer - INFO - Richiesta da 127.0.0.1:57615
+2025-07-18 15:03:57,106 - HTTPServer - INFO - Richiesta da 127.0.0.1:57616
+2025-07-18 15:03:57,106 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:03:57,106 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 15:03:57,107 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 15:03:57,108 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 15:03:57,110 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:03:57,110 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 15:03:59,430 - HTTPServer - INFO - Richiesta da 127.0.0.1:57619
+2025-07-18 15:03:59,430 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 15:03:59,432 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 15:04:00,221 - HTTPServer - INFO - Richiesta da 127.0.0.1:57620
+2025-07-18 15:04:00,223 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:04:00,225 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:04:01,750 - HTTPServer - INFO - Richiesta da 127.0.0.1:57624
+2025-07-18 15:04:01,750 - HTTPServer - INFO - GET /intro.html da 127.0.0.1
+2025-07-18 15:04:01,751 - HTTPServer - INFO - Risposta: 200 (12951 bytes)
+2025-07-18 15:04:01,951 - HTTPServer - INFO - Richiesta da 127.0.0.1:57627
+2025-07-18 15:04:01,952 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:04:01,952 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:04:02,015 - HTTPServer - INFO - Richiesta da 127.0.0.1:57628
+2025-07-18 15:04:02,016 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:04:02,018 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:04:02,092 - HTTPServer - INFO - Richiesta da 127.0.0.1:57630
+2025-07-18 15:04:02,093 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 15:04:02,094 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 15:04:09,914 - HTTPServer - INFO - Richiesta da 127.0.0.1:57631
+2025-07-18 15:04:09,915 - HTTPServer - INFO - GET /header.html da 127.0.0.1
+2025-07-18 15:04:09,915 - HTTPServer - INFO - Risposta: 200 (8524 bytes)
+2025-07-18 15:04:10,225 - HTTPServer - INFO - Richiesta da 127.0.0.1:57638
+2025-07-18 15:04:10,225 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:04:10,226 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:04:10,258 - HTTPServer - INFO - Richiesta da 127.0.0.1:57639
+2025-07-18 15:04:10,259 - HTTPServer - INFO - Richiesta da 127.0.0.1:57640
+2025-07-18 15:04:10,259 - HTTPServer - INFO - Richiesta da 127.0.0.1:57641
+2025-07-18 15:04:10,260 - HTTPServer - INFO - Richiesta da 127.0.0.1:57642
+2025-07-18 15:04:10,260 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:04:10,260 - HTTPServer - INFO - GET /icons/header.svg da 127.0.0.1
+2025-07-18 15:04:10,260 - HTTPServer - INFO - Richiesta da 127.0.0.1:57643
+2025-07-18 15:04:10,261 - HTTPServer - INFO - GET /icons/header_request_raw.svg da 127.0.0.1
+2025-07-18 15:04:10,261 - HTTPServer - INFO - GET /icons/header_response_raw.svg da 127.0.0.1
+2025-07-18 15:04:10,262 - HTTPServer - INFO - GET /icons/header_response.svg da 127.0.0.1
+2025-07-18 15:04:10,266 - HTTPServer - INFO - Risposta: 200 (515 bytes)
+2025-07-18 15:04:10,266 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:04:10,267 - HTTPServer - INFO - Risposta: 200 (685 bytes)
+2025-07-18 15:04:10,267 - HTTPServer - INFO - Risposta: 200 (600 bytes)
+2025-07-18 15:04:10,267 - HTTPServer - INFO - Risposta: 200 (615 bytes)
+2025-07-18 15:05:06,253 - HTTPServer - INFO - Richiesta da 127.0.0.1:57658
+2025-07-18 15:05:06,255 - HTTPServer - INFO - GET /boh da 127.0.0.1
+2025-07-18 15:05:06,256 - HTTPServer - INFO - Risposta: 404 (6761 bytes)
+2025-07-18 15:05:06,280 - HTTPServer - INFO - Richiesta da 127.0.0.1:57659
+2025-07-18 15:05:06,281 - HTTPServer - INFO - GET /icons/404.svg da 127.0.0.1
+2025-07-18 15:05:06,284 - HTTPServer - INFO - Risposta: 200 (378 bytes)
+2025-07-18 15:05:06,519 - HTTPServer - INFO - Richiesta da 127.0.0.1:57660
+2025-07-18 15:05:06,519 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:05:06,520 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:05:06,846 - HTTPServer - INFO - Richiesta da 127.0.0.1:57663
+2025-07-18 15:05:06,847 - HTTPServer - INFO - GET /icons/404.svg da 127.0.0.1
+2025-07-18 15:05:06,850 - HTTPServer - INFO - Risposta: 200 (378 bytes)
+2025-07-18 15:05:12,951 - HTTPServer - INFO - Richiesta da 127.0.0.1:57664
+2025-07-18 15:05:12,951 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:05:12,952 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:05:12,977 - HTTPServer - INFO - Richiesta da 127.0.0.1:57666
+2025-07-18 15:05:12,977 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:05:12,980 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:05:13,290 - HTTPServer - INFO - Richiesta da 127.0.0.1:57670
+2025-07-18 15:05:13,292 - HTTPServer - INFO - Richiesta da 127.0.0.1:57671
+2025-07-18 15:05:13,292 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:05:13,292 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 15:05:13,292 - HTTPServer - INFO - Richiesta da 127.0.0.1:57672
+2025-07-18 15:05:13,293 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 15:05:13,293 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:05:13,294 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 15:05:13,294 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 15:05:16,218 - HTTPServer - INFO - Richiesta da 127.0.0.1:57675
+2025-07-18 15:05:16,218 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 15:05:16,220 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 15:05:33,807 - HTTPServer - INFO - Richiesta da 127.0.0.1:57676
+2025-07-18 15:05:33,808 - HTTPServer - INFO - GET /.well-known/appspecific/com.chrome.devtools.json da 127.0.0.1
+2025-07-18 15:05:33,809 - HTTPServer - INFO - Risposta: 404 (6761 bytes)
+2025-07-18 15:05:34,118 - HTTPServer - INFO - Richiesta da 127.0.0.1:57682
+2025-07-18 15:05:34,120 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:05:34,121 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:05:39,916 - HTTPServer - INFO - Richiesta da 127.0.0.1:57691
+2025-07-18 15:05:39,916 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:05:39,918 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:05:39,933 - HTTPServer - INFO - Richiesta da 127.0.0.1:57692
+2025-07-18 15:05:39,933 - HTTPServer - INFO - GET /.well-known/appspecific/com.chrome.devtools.json da 127.0.0.1
+2025-07-18 15:05:39,935 - HTTPServer - INFO - Risposta: 404 (6761 bytes)
+2025-07-18 15:05:40,165 - HTTPServer - INFO - Richiesta da 127.0.0.1:57695
+2025-07-18 15:05:40,165 - HTTPServer - INFO - GET /.well-known/appspecific/com.chrome.devtools.json da 127.0.0.1
+2025-07-18 15:05:40,166 - HTTPServer - INFO - Risposta: 404 (6761 bytes)
+2025-07-18 15:05:44,017 - HTTPServer - INFO - Richiesta da 127.0.0.1:57696
+2025-07-18 15:05:44,017 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:05:44,018 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:05:44,322 - HTTPServer - INFO - Richiesta da 127.0.0.1:57706
+2025-07-18 15:05:44,322 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:05:44,322 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:05:44,383 - HTTPServer - INFO - Richiesta da 127.0.0.1:57707
+2025-07-18 15:05:44,384 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:05:44,384 - HTTPServer - INFO - Richiesta da 127.0.0.1:57708
+2025-07-18 15:05:44,384 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 15:05:44,385 - HTTPServer - INFO - Richiesta da 127.0.0.1:57709
+2025-07-18 15:05:44,385 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 15:05:44,386 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 15:05:44,386 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:05:44,387 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 15:05:46,700 - HTTPServer - INFO - Richiesta da 127.0.0.1:57712
+2025-07-18 15:05:46,700 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 15:05:46,702 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 15:41:43,940 - HTTPServer - INFO - Richiesta da 127.0.0.1:58536
+2025-07-18 15:41:43,940 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:41:43,941 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:41:43,987 - HTTPServer - INFO - Richiesta da 127.0.0.1:58537
+2025-07-18 15:41:43,988 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:41:43,989 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:41:44,206 - HTTPServer - INFO - Richiesta da 127.0.0.1:58540
+2025-07-18 15:41:44,206 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:41:44,208 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:41:44,300 - HTTPServer - INFO - Richiesta da 127.0.0.1:58541
+2025-07-18 15:41:44,300 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 15:41:44,303 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 15:41:44,304 - HTTPServer - INFO - Richiesta da 127.0.0.1:58542
+2025-07-18 15:41:44,304 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 15:41:44,305 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 15:41:47,218 - HTTPServer - INFO - Richiesta da 127.0.0.1:58545
+2025-07-18 15:41:47,218 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 15:41:47,219 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 15:41:47,907 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 15:41:47,907 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 15:41:47,911 - HTTPServer - INFO - Server avviato su http://localhost:8080
+2025-07-18 15:41:47,911 - HTTPServer - INFO - Serving files from: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 15:41:47,911 - HTTPServer - INFO - Statistiche disponibili su: http://localhost:8080/stats
+2025-07-18 15:42:11,285 - HTTPServer - INFO - Richiesta da 127.0.0.1:58546
+2025-07-18 15:42:11,285 - HTTPServer - INFO - GET /intro.html da 127.0.0.1
+2025-07-18 15:42:11,287 - HTTPServer - INFO - Risposta: 200 (12951 bytes)
+2025-07-18 15:42:11,596 - HTTPServer - INFO - Richiesta da 127.0.0.1:58582
+2025-07-18 15:42:11,597 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:42:11,598 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:42:11,629 - HTTPServer - INFO - Richiesta da 127.0.0.1:58583
+2025-07-18 15:42:11,629 - HTTPServer - INFO - Richiesta da 127.0.0.1:58584
+2025-07-18 15:42:11,629 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:42:11,629 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 15:42:11,631 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:42:11,632 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 15:42:14,217 - HTTPServer - INFO - Richiesta da 127.0.0.1:58588
+2025-07-18 15:42:14,217 - HTTPServer - INFO - GET /server.html da 127.0.0.1
+2025-07-18 15:42:14,243 - HTTPServer - INFO - Risposta: 200 (16378 bytes)
+2025-07-18 15:42:14,327 - HTTPServer - INFO - Richiesta da 127.0.0.1:58591
+2025-07-18 15:42:14,327 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:42:14,330 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:42:14,467 - HTTPServer - INFO - Richiesta da 127.0.0.1:58592
+2025-07-18 15:42:14,467 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:42:14,469 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:42:14,573 - HTTPServer - INFO - Richiesta da 127.0.0.1:58593
+2025-07-18 15:42:14,574 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 15:42:14,574 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 15:42:18,224 - HTTPServer - INFO - Richiesta da 127.0.0.1:58594
+2025-07-18 15:42:18,225 - HTTPServer - INFO - GET /header.html da 127.0.0.1
+2025-07-18 15:42:18,226 - HTTPServer - INFO - Risposta: 200 (8531 bytes)
+2025-07-18 15:42:18,534 - HTTPServer - INFO - Richiesta da 127.0.0.1:58602
+2025-07-18 15:42:18,534 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:42:18,537 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:42:18,570 - HTTPServer - INFO - Richiesta da 127.0.0.1:58603
+2025-07-18 15:42:18,570 - HTTPServer - INFO - Richiesta da 127.0.0.1:58604
+2025-07-18 15:42:18,570 - HTTPServer - INFO - Richiesta da 127.0.0.1:58605
+2025-07-18 15:42:18,570 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:42:18,571 - HTTPServer - INFO - GET /icons/header.svg da 127.0.0.1
+2025-07-18 15:42:18,571 - HTTPServer - INFO - GET /icons/header_request_raw.svg da 127.0.0.1
+2025-07-18 15:42:18,571 - HTTPServer - INFO - Richiesta da 127.0.0.1:58606
+2025-07-18 15:42:18,571 - HTTPServer - INFO - Richiesta da 127.0.0.1:58607
+2025-07-18 15:42:18,572 - HTTPServer - INFO - GET /icons/header_response_raw.svg da 127.0.0.1
+2025-07-18 15:42:18,573 - HTTPServer - INFO - GET /icons/header_response.svg da 127.0.0.1
+2025-07-18 15:42:18,575 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:42:18,576 - HTTPServer - INFO - Risposta: 200 (515 bytes)
+2025-07-18 15:42:18,576 - HTTPServer - INFO - Risposta: 200 (615 bytes)
+2025-07-18 15:42:18,578 - HTTPServer - INFO - Risposta: 200 (685 bytes)
+2025-07-18 15:42:18,593 - HTTPServer - INFO - Risposta: 200 (600 bytes)
+2025-07-18 15:42:22,977 - HTTPServer - INFO - Richiesta da 127.0.0.1:58611
+2025-07-18 15:42:22,978 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:42:22,979 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:42:23,057 - HTTPServer - INFO - Richiesta da 127.0.0.1:58615
+2025-07-18 15:42:23,057 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:42:23,059 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:42:23,227 - HTTPServer - INFO - Richiesta da 127.0.0.1:58616
+2025-07-18 15:42:23,227 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:42:23,229 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:42:23,319 - HTTPServer - INFO - Richiesta da 127.0.0.1:58617
+2025-07-18 15:42:23,320 - HTTPServer - INFO - Richiesta da 127.0.0.1:58618
+2025-07-18 15:42:23,320 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 15:42:23,320 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 15:42:23,321 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 15:42:23,321 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 15:42:25,329 - HTTPServer - INFO - Richiesta da 127.0.0.1:58619
+2025-07-18 15:42:25,329 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 15:42:25,330 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 15:42:53,569 - HTTPServer - INFO - Richiesta da 127.0.0.1:58661
+2025-07-18 15:42:53,570 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:42:53,570 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:42:53,813 - HTTPServer - INFO - Richiesta da 127.0.0.1:58668
+2025-07-18 15:42:53,813 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:42:53,814 - HTTPServer - INFO - Risposta: 200 (17696 bytes)
+2025-07-18 15:42:53,880 - HTTPServer - INFO - Richiesta da 127.0.0.1:58670
+2025-07-18 15:42:53,880 - HTTPServer - INFO - Richiesta da 127.0.0.1:58669
+2025-07-18 15:42:53,880 - HTTPServer - INFO - Richiesta da 127.0.0.1:58671
+2025-07-18 15:42:53,880 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 15:42:53,880 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:42:53,881 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 15:42:53,882 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:42:53,882 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 15:42:53,883 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 15:42:56,903 - HTTPServer - INFO - Richiesta da 127.0.0.1:58672
+2025-07-18 15:42:56,904 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 15:42:56,904 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 15:43:40,740 - HTTPServer - INFO - Richiesta da 127.0.0.1:58701
+2025-07-18 15:43:40,740 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:43:40,741 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:43:40,753 - HTTPServer - INFO - Richiesta da 127.0.0.1:58702
+2025-07-18 15:43:40,754 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:43:40,764 - HTTPServer - INFO - Risposta: 200 (18607 bytes)
+2025-07-18 15:43:41,003 - HTTPServer - INFO - Richiesta da 127.0.0.1:58705
+2025-07-18 15:43:41,005 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:43:41,006 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:43:41,065 - HTTPServer - INFO - Richiesta da 127.0.0.1:58706
+2025-07-18 15:43:41,066 - HTTPServer - INFO - Richiesta da 127.0.0.1:58707
+2025-07-18 15:43:41,066 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 15:43:41,066 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 15:43:41,068 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 15:43:41,068 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 15:43:41,394 - HTTPServer - INFO - Richiesta da 127.0.0.1:58710
+2025-07-18 15:43:41,394 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:43:41,396 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:43:43,907 - HTTPServer - INFO - Richiesta da 127.0.0.1:58711
+2025-07-18 15:43:43,907 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 15:43:43,908 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 15:43:49,994 - HTTPServer - INFO - Server inizializzato su localhost:8080
+2025-07-18 15:43:49,994 - HTTPServer - INFO - Document root: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 15:43:49,999 - HTTPServer - INFO - Server avviato su http://localhost:8080
+2025-07-18 15:43:49,999 - HTTPServer - INFO - Serving files from: C:\Users\filip\Desktop\Repositories\ProgReti\Prog-Reti\src\www
+2025-07-18 15:43:49,999 - HTTPServer - INFO - Statistiche disponibili su: http://localhost:8080/stats
+2025-07-18 15:43:53,021 - HTTPServer - INFO - Richiesta da 127.0.0.1:58718
+2025-07-18 15:43:53,021 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:43:53,022 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:43:53,038 - HTTPServer - INFO - Richiesta da 127.0.0.1:58719
+2025-07-18 15:43:53,038 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:43:53,039 - HTTPServer - INFO - Risposta: 200 (18607 bytes)
+2025-07-18 15:43:53,286 - HTTPServer - INFO - Richiesta da 127.0.0.1:58724
+2025-07-18 15:43:53,286 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:43:53,287 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:43:53,350 - HTTPServer - INFO - Richiesta da 127.0.0.1:58725
+2025-07-18 15:43:53,350 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 15:43:53,350 - HTTPServer - INFO - Richiesta da 127.0.0.1:58726
+2025-07-18 15:43:53,351 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 15:43:53,351 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 15:43:53,352 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 15:43:53,679 - HTTPServer - INFO - Richiesta da 127.0.0.1:58729
+2025-07-18 15:43:53,680 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:43:53,680 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:43:55,359 - HTTPServer - INFO - Richiesta da 127.0.0.1:58730
+2025-07-18 15:43:55,359 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 15:43:55,360 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)
+2025-07-18 15:43:57,083 - HTTPServer - INFO - Richiesta da 127.0.0.1:58741
+2025-07-18 15:43:57,083 - HTTPServer - INFO - GET /intro.html da 127.0.0.1
+2025-07-18 15:43:57,084 - HTTPServer - INFO - Risposta: 200 (12951 bytes)
+2025-07-18 15:43:57,194 - HTTPServer - INFO - Richiesta da 127.0.0.1:58744
+2025-07-18 15:43:57,194 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:43:57,195 - HTTPServer - INFO - Risposta: 200 (18607 bytes)
+2025-07-18 15:43:57,350 - HTTPServer - INFO - Richiesta da 127.0.0.1:58745
+2025-07-18 15:43:57,351 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:43:57,352 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:43:57,412 - HTTPServer - INFO - Richiesta da 127.0.0.1:58746
+2025-07-18 15:43:57,412 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 15:43:57,413 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 15:43:57,813 - HTTPServer - INFO - Richiesta da 127.0.0.1:58747
+2025-07-18 15:43:57,813 - HTTPServer - INFO - GET /server.html da 127.0.0.1
+2025-07-18 15:43:57,814 - HTTPServer - INFO - Risposta: 200 (16378 bytes)
+2025-07-18 15:43:58,115 - HTTPServer - INFO - Richiesta da 127.0.0.1:58751
+2025-07-18 15:43:58,115 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:43:58,116 - HTTPServer - INFO - Risposta: 200 (18607 bytes)
+2025-07-18 15:43:58,147 - HTTPServer - INFO - Richiesta da 127.0.0.1:58752
+2025-07-18 15:43:58,147 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:43:58,147 - HTTPServer - INFO - Richiesta da 127.0.0.1:58753
+2025-07-18 15:43:58,149 - HTTPServer - INFO - GET /icons/server.svg da 127.0.0.1
+2025-07-18 15:43:58,150 - HTTPServer - INFO - Risposta: 200 (520 bytes)
+2025-07-18 15:43:58,150 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:43:58,723 - HTTPServer - INFO - Richiesta da 127.0.0.1:58757
+2025-07-18 15:43:58,724 - HTTPServer - INFO - GET / da 127.0.0.1
+2025-07-18 15:43:58,726 - HTTPServer - INFO - Risposta: 200 (10245 bytes)
+2025-07-18 15:43:58,801 - HTTPServer - INFO - Richiesta da 127.0.0.1:58761
+2025-07-18 15:43:58,801 - HTTPServer - INFO - GET /style.css da 127.0.0.1
+2025-07-18 15:43:58,803 - HTTPServer - INFO - Risposta: 200 (18607 bytes)
+2025-07-18 15:43:58,973 - HTTPServer - INFO - Richiesta da 127.0.0.1:58762
+2025-07-18 15:43:58,974 - HTTPServer - INFO - GET /icons/logo.svg da 127.0.0.1
+2025-07-18 15:43:58,975 - HTTPServer - INFO - Risposta: 200 (300 bytes)
+2025-07-18 15:43:59,066 - HTTPServer - INFO - Richiesta da 127.0.0.1:58763
+2025-07-18 15:43:59,068 - HTTPServer - INFO - Richiesta da 127.0.0.1:58764
+2025-07-18 15:43:59,068 - HTTPServer - INFO - GET /icons/globe.svg da 127.0.0.1
+2025-07-18 15:43:59,068 - HTTPServer - INFO - GET /script.js da 127.0.0.1
+2025-07-18 15:43:59,069 - HTTPServer - INFO - Risposta: 200 (415 bytes)
+2025-07-18 15:43:59,069 - HTTPServer - INFO - Risposta: 200 (11831 bytes)
+2025-07-18 15:44:01,082 - HTTPServer - INFO - Richiesta da 127.0.0.1:58765
+2025-07-18 15:44:01,083 - HTTPServer - INFO - HEAD / da 127.0.0.1
+2025-07-18 15:44:01,084 - HTTPServer - INFO - Risposta: 200 (HEAD - no body)

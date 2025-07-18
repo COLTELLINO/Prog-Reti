@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Server HTTP Minimale - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/logo.svg" type="image/svg+xml">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <img src="icons/logo.svg" alt="Logo" class="logo-img">
+                HTTP Server
+            </a>
+            <ul class="nav-menu">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="intro.html">Introduzione</a></li>
+                <li><a href="server.html">Server Info</a></li>
+                <li><a href="header.html">Headers</a></li>
+                <li><a href="/stats">Statistiche</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="hero-section">
+                <img src="icons/globe.svg" alt="Globe Icon" class="hero-icon">
+                <h1>Web Server HTTP Minimale</h1>
+                <p class="hero-description">
+                    Un server HTTP implementato in Python puro utilizzando socket nativi.
+                    Progettato per servire contenuto statico con funzionalità avanzate.
+                </p>
+                <div class="hero-buttons">
+                    <a href="intro.html" class="btn btn-primary">Scopri di più</a>
+                    <a href="/stats" class="btn btn-secondary">Statistiche Live</a>
+                </div>
+            </div>
+
+            <div class="features-section">
+                <h2>🚀 Funzionalità Principali</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🌐</div>
+                        <h3>Server HTTP Completo</h3>
+                        <p>Implementazione completa del protocollo HTTP/1.1 con gestione delle richieste GET e codici di risposta corretti.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">📁</div>
+                        <h3>Contenuto Statico</h3>
+                        <p>Serve file HTML, CSS, JavaScript, immagini e altri tipi di file con riconoscimento automatico del MIME type.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Logging Avanzato</h3>
+                        <p>Sistema di logging completo con registrazione su file e console, statistiche dettagliate delle richieste.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Design Responsive</h3>
+                        <p>Interfaccia web moderna e responsive che si adatta a tutti i dispositivi e dimensioni dello schermo.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Sicurezza</h3>
+                        <p>Protezione contro path traversal attacks e gestione sicura delle richieste malformate.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Performance</h3>
+                        <p>Gestione multi-threading delle connessioni per servire più client contemporaneamente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="status-section">
+                <h2>📈 Stato del Server</h2>
+                <div class="status-grid">
+                    <div class="status-card">
+                        <div class="status-indicator online"></div>
+                        <h3>Server Online</h3>
+                        <p>Il server è attivo e funzionante</p>
+                        <span class="status-time" id="server-uptime">Caricamento...</span>
+                    </div>
+                    
+                    <div class="status-card">
+                        <div class="status-indicator"></div>
+                        <h3>Richieste Servite</h3>
+                        <p>Numero totale di richieste processate</p>
+                        <span class="status-number" id="requests-count">--</span>
+                    </div>
+                    
+                    <div class="status-card">
+                        <div class="status-indicator"></div>
+                        <h3>File Serviti</h3>
+                        <p>Tipi di contenuto disponibili</p>
+                        <span class="status-number">HTML, CSS, JS, IMG</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quick-links">
+                <h2>🔗 Link Utili</h2>
+                <div class="links-grid">
+                    <a href="intro.html" class="link-card">
+                        <div class="link-icon">📖</div>
+                        <h3>Introduzione</h3>
+                        <p>Scopri come funziona il server HTTP</p>
+                    </a>
+                    
+                    <a href="server.html" class="link-card">
+                        <div class="link-icon">🖥️</div>
+                        <h3>Informazioni Server</h3>
+                        <p>Dettagli tecnici dell'implementazione</p>
+                    </a>
+                    
+                    <a href="header.html" class="link-card">
+                        <div class="link-icon">📋</div>
+                        <h3>Header HTTP</h3>
+                        <p>Gestione degli header e MIME types</p>
+                    </a>
+                    
+                    <a href="/stats" class="link-card">
+                        <div class="link-icon">📊</div>
+                        <h3>Statistiche Live</h3>
+                        <p>Monitoraggio in tempo reale</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="demo-section">
+                <h2>🎮 Prova il Server</h2>
+                <div class="demo-content">
+                    <p>Il server è configurato per rispondere su <code>localhost:8080</code> e serve i seguenti contenuti:</p>
+                    <ul class="demo-list">
+                        <li>✅ Pagine HTML statiche con layout responsive</li>
+                        <li>✅ File CSS per lo styling</li>
+                        <li>✅ Immagini e icone</li>
+                        <li>✅ Pagina 404 personalizzata</li>
+                        <li>✅ Directory listing automatico</li>
+                        <li>✅ Statistiche del server in tempo reale</li>
+                    </ul>
+                    <div class="demo-buttons">
+                        <button onclick="testServer()" class="btn btn-primary">Testa Connessione</button>
+                        <button onclick="showStats()" class="btn btn-secondary">Mostra Statistiche</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Filippo Patrignani - Progetto Web Server HTTP</p>
+            <p>Implementato in Python utilizzando socket nativi per il corso di Programmazione di Reti</p>
+        </div>
+    </footer>
+
+    <script>
+        // Aggiorna l'uptime del server
+        function updateUptime() {
+            const now = new Date();
+            const uptimeElement = document.getElementById('server-uptime');
+            if (uptimeElement) {
+                uptimeElement.textContent = `Attivo dal: ${now.toLocaleString('it-IT')}`;
+            }
+        }
+
+        // Simula il contatore delle richieste
+        function updateRequestCount() {
+            const countElement = document.getElementById('requests-count');
+            if (countElement) {
+                const count = Math.floor(Math.random() * 1000) + 100;
+                countElement.textContent = count.toString();
+            }
+        }
+
+        // Test della connessione al server
+        function testServer() {
+            fetch('/')
+                .then(response => {
+                    if (response.ok) {
+                        alert('✅ Server raggiungibile e funzionante!');
+                    } else {
+                        alert('⚠️ Server raggiungibile ma con errori');
+                    }
+                })
+                .catch(error => {
+                    alert('❌ Impossibile raggiungere il server');
+                });
+        }
+
+        // Mostra le statistiche
+        function showStats() {
+            window.open('/stats', '_blank');
+        }
+
+        // Animazioni al caricamento
+        function animateElements() {
+            const elements = document.querySelectorAll('.feature-card, .status-card, .link-card');
+            elements.forEach((element, index) => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                
+                setTimeout(() => {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+        }
+
+        // Inizializzazione
+        document.addEventListener('DOMContentLoaded', function() {
+            updateUptime();
+            updateRequestCount();
+            animateElements();
+            
+            // Aggiorna periodicamente
+            setInterval(updateRequestCount, 5000);
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

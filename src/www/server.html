@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informazioni Server - Web Server HTTP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/server.svg" type="image/svg+xml">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <img src="icons/logo.svg" alt="Logo" class="logo-img">
+                HTTP Server
+            </a>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="intro.html">Introduzione</a></li>
+                <li><a href="server.html" class="active">Server Info</a></li>
+                <li><a href="header.html">Headers</a></li>
+                <li><a href="/stats">Statistiche</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="hero-section">
+                <img src="icons/server.svg" alt="Server Icon" class="hero-icon">
+                <h1>Informazioni Tecniche del Server</h1>
+                <p class="hero-description">
+                    Dettagli dell'implementazione e specifiche tecniche del web server HTTP
+                </p>
+            </div>
+
+            <div class="content-grid">
+                <div class="card">
+                    <h2>⚙️ Configurazione del Server</h2>
+                    <div class="config-table">
+                        <div class="config-row">
+                            <span class="config-label">Indirizzo Host:</span>
+                            <span class="config-value">localhost (127.0.0.1)</span>
+                        </div>
+                        <div class="config-row">
+                            <span class="config-label">Porta:</span>
+                            <span class="config-value">8080</span>
+                        </div>
+                        <div class="config-row">
+                            <span class="config-label">Protocollo:</span>
+                            <span class="config-value">HTTP/1.1</span>
+                        </div>
+                        <div class="config-row">
+                            <span class="config-label">Trasporto:</span>
+                            <span class="config-value">TCP/IP</span>
+                        </div>
+                        <div class="config-row">
+                            <span class="config-label">Document Root:</span>
+                            <span class="config-value">./www/</span>
+                        </div>
+                        <div class="config-row">
+                            <span class="config-label">Max Connessioni:</span>
+                            <span class="config-value">5 (listen queue)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>🔧 Implementazione Socket</h2>
+                    <p>
+                        Il server utilizza i socket nativi di Python per implementare 
+                        la comunicazione TCP/IP a basso livello.
+                    </p>
+                    <div class="code-block">
+                        <h4>Creazione del Socket Server:</h4>
+                        <pre><code>server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+server_socket.bind((self.host, self.port))
+server_socket.listen(5)</code></pre>
+                    </div>
+                    <ul class="feature-list">
+                        <li>✅ Famiglia AF_INET (IPv4)</li>
+                        <li>✅ Tipo SOCK_STREAM (TCP)</li>
+                        <li>✅ Opzione SO_REUSEADDR per il riutilizzo della porta</li>
+                        <li>✅ Listen queue di 5 connessioni</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>🧵 Gestione Multi-Threading</h2>
+                    <p>
+                        Ogni client viene gestito in un thread separato per permettere 
+                        connessioni concorrenti multiple.
+                    </p>
+                    <div class="code-block">
+                        <h4>Gestione Client Concorrenti:</h4>
+                        <pre><code>client_thread = threading.Thread(
+    target=self.handle_client,
+    args=(client_socket, client_address)
+)
+client_thread.daemon = True
+client_thread.start()</code></pre>
+                    </div>
+                    <div class="threading-benefits">
+                        <div class="benefit-item">
+                            <h4>⚡ Performance</h4>
+                            <p>Nessun blocco durante l'elaborazione delle richieste</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4>🔄 Concorrenza</h4>
+                            <p>Gestione di più client simultaneamente</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4>🛡️ Isolamento</h4>
+                            <p>Errori di un client non influenzano altri</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card full-width">
+                    <h2>📊 Codici di Stato HTTP Supportati</h2>
+                    <div class="status-codes-grid">
+                        <div class="status-code">
+                            <div class="status-number success">200</div>
+                            <h4>OK</h4>
+                            <p>Richiesta elaborata con successo. File trovato e servito correttamente.</p>
+                        </div>
+                        <div class="status-code">
+                            <div class="status-number client-error">404</div>
+                            <h4>Not Found</h4>
+                            <p>File richiesto non trovato. Viene servita una pagina 404 personalizzata.</p>
+                        </div>
+                        <div class="status-code">
+                            <div class="status-number client-error">405</div>
+                            <h4>Method Not Allowed</h4>
+                            <p>Metodo HTTP non supportato. Il server accetta solo richieste GET.</p>
+                        </div>
+                        <div class="status-code">
+                            <div class="status-number server-error">500</div>
+                            <h4>Internal Server Error</h4>
+                            <p>Errore interno del server durante l'elaborazione della richiesta.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>🎯 Parsing delle Richieste HTTP</h2>
+                    <p>
+                        Il server analizza le richieste HTTP seguendo le specifiche RFC 7230.
+                    </p>
+                    <div class="parsing-steps">
+                        <div class="parsing-step">
+                            <div class="step-icon">1️⃣</div>
+                            <div>
+                                <h4>Request Line</h4>
+                                <p>Estrazione di metodo, path e versione HTTP</p>
+                            </div>
+                        </div>
+                        <div class="parsing-step">
+                            <div class="step-icon">2️⃣</div>
+                            <div>
+                                <h4>Headers</h4>
+                                <p>Parsing degli header HTTP nome:valore</p>
+                            </div>
+                        </div>
+                        <div class="parsing-step">
+                            <div class="step-icon">3️⃣</div>
+                            <div>
+                                <h4>URL Decoding</h4>
+                                <p>Decodifica URL-encoded dei percorsi</p>
+                            </div>
+                        </div>
+                        <div class="parsing-step">
+                            <div class="step-icon">4️⃣</div>
+                            <div>
+                                <h4>Validation</h4>
+                                <p>Validazione e sanitizzazione dei dati</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>🔐 Funzionalità di Sicurezza</h2>
+                    <div class="security-features">
+                        <div class="security-item">
+                            <div class="security-icon">🛡️</div>
+                            <h4>Path Traversal Protection</h4>
+                            <p>Prevenzione di accessi al filesystem esterno al document root</p>
+                        </div>
+                        <div class="security-item">
+                            <div class="security-icon">🔍</div>
+                            <h4>Input Validation</h4>
+                            <p>Validazione di tutte le richieste HTTP in arrivo</p>
+                        </div>
+                        <div class="security-item">
+                            <div class="security-icon">📝</div>
+                            <h4>Request Logging</h4>
+                            <p>Registrazione completa di tutte le richieste per audit</p>
+                        </div>
+                        <div class="security-item">
+                            <div class="security-icon">⏱️</div>
+                            <h4>Connection Management</h4>
+                            <p>Chiusura automatica delle connessioni per prevenire DoS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>📁 Gestione File System</h2>
+                    <p>
+                        Il server gestisce automaticamente diversi tipi di file e situazioni:
+                    </p>
+                    <div class="filesystem-features">
+                        <div class="fs-feature">
+                            <h4>🏠 Index Files</h4>
+                            <p>Ricerca automatica di index.html/index.htm nelle directory</p>
+                        </div>
+                        <div class="fs-feature">
+                            <h4>📋 Directory Listing</h4>
+                            <p>Generazione automatica di listing per directory senza index</p>
+                        </div>
+                        <div class="fs-feature">
+                            <h4>📊 File Information</h4>
+                            <p>Dimensione file, data di modifica e tipo MIME</p>
+                        </div>
+                        <div class="fs-feature">
+                            <h4>🎭 MIME Detection</h4>
+                            <p>Riconoscimento automatico del tipo di contenuto</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>📈 Sistema di Logging</h2>
+                    <p>
+                        Sistema di logging avanzato per monitoraggio e debugging:
+                    </p>
+                    <div class="logging-info">
+                        <div class="log-level">
+                            <span class="level-badge info">INFO</span>
+                            <span>Richieste client, avvio/arresto server</span>
+                        </div>
+                        <div class="log-level">
+                            <span class="level-badge debug">DEBUG</span>
+                            <span>Dettagli delle richieste HTTP raw</span>
+                        </div>
+                        <div class="log-level">
+                            <span class="level-badge error">ERROR</span>
+                            <span>Errori del server e problemi di I/O</span>
+                        </div>
+                    </div>
+                    <div class="code-block">
+                        <h4>Esempio di Log:</h4>
+                        <pre><code>2025-07-18 10:30:15 - HTTPServer - INFO - Richiesta da 127.0.0.1:54321
+2025-07-18 10:30:15 - HTTPServer - INFO - GET /index.html da 127.0.0.1
+2025-07-18 10:30:15 - HTTPServer - INFO - Risposta: 200 (2048 bytes)</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="technical-specs">
+                <h2>🔬 Specifiche Tecniche Complete</h2>
+                <div class="specs-grid">
+                    <div class="spec-card">
+                        <h3>Linguaggio</h3>
+                        <p>Python 3.7+</p>
+                    </div>
+                    <div class="spec-card">
+                        <h3>Librerie</h3>
+                        <p>Solo librerie standard (socket, threading, logging, pathlib)</p>
+                    </div>
+                    <div class="spec-card">
+                        <h3>Protocollo</h3>
+                        <p>HTTP/1.1 (RFC 7230-7235)</p>
+                    </div>
+                    <div class="spec-card">
+                        <h3>Metodi HTTP</h3>
+                        <p>GET (altri metodi ritornano 405)</p>
+                    </div>
+                    <div class="spec-card">
+                        <h3>Encoding</h3>
+                        <p>UTF-8 per contenuti testuali</p>
+                    </div>
+                    <div class="spec-card">
+                        <h3>Dimensione Buffer</h3>
+                        <p>1024 bytes per richiesta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Filippo Patrignani - Progetto Web Server HTTP</p>
+            <p>Implementazione completa del protocollo HTTP/1.1 in Python</p>
+        </div>
+    </footer>
+
+    <script>
+        // Animazione per le card di stato
+        function animateStatusCodes() {
+            const statusCodes = document.querySelectorAll('.status-code');
+            statusCodes.forEach((code, index) => {
+                code.style.opacity = '0';
+                code.style.transform = 'scale(0.9)';
+                code.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                
+                setTimeout(() => {
+                    code.style.opacity = '1';
+                    code.style.transform = 'scale(1)';
+                }, index * 150);
+            });
+        }
+
+        // Animazione per i passi di parsing
+        function animateParsingSteps() {
+            const steps = document.querySelectorAll('.parsing-step');
+            steps.forEach((step, index) => {
+                step.style.opacity = '0';
+                step.style.transform = 'translateX(-20px)';
+                step.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+                
+                setTimeout(() => {
+                    step.style.opacity = '1';
+                    step.style.transform = 'translateX(0)';
+                }, index * 200);
+            });
+        }
+
+        // Animazione generale per le card
+        function animateCards() {
+            const cards = document.querySelectorAll('.card');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+
+            cards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(card);
+            });
+        }
+
+        // Inizializzazione
+        document.addEventListener('DOMContentLoaded', function() {
+            animateCards();
+            setTimeout(animateStatusCodes, 300);
+            setTimeout(animateParsingSteps, 600);
+        });
+    </script>
+</body>
+</html>

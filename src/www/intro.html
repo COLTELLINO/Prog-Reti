@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduzione - Web Server HTTP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/logo.svg" type="image/svg+xml">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <img src="icons/logo.svg" alt="Logo" class="logo-img">
+                HTTP Server
+            </a>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="intro.html" class="active">Introduzione</a></li>
+                <li><a href="server.html">Server Info</a></li>
+                <li><a href="header.html">Headers</a></li>
+                <li><a href="/stats">Statistiche</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="hero-section">
+                <img src="icons/server.svg" alt="Server Icon" class="hero-icon">
+                <h1>Introduzione al Web Server HTTP</h1>
+                <p class="hero-description">
+                    Scopri come funziona il nostro server HTTP implementato in Python puro
+                </p>
+            </div>
+
+            <div class="content-grid">
+                <div class="card">
+                    <h2>🎯 Obiettivo del Progetto</h2>
+                    <p>
+                        Questo progetto implementa un <strong>server HTTP minimale</strong> in Python 
+                        utilizzando esclusivamente i socket nativi del sistema operativo. L'obiettivo 
+                        è dimostrare una comprensione approfondita del protocollo HTTP e delle 
+                        comunicazioni di rete a basso livello.
+                    </p>
+                    <ul class="feature-list">
+                        <li>✅ Implementazione del protocollo HTTP/1.1</li>
+                        <li>✅ Gestione delle richieste GET</li>
+                        <li>✅ Servizio di contenuto statico</li>
+                        <li>✅ Codici di risposta HTTP corretti</li>
+                        <li>✅ Gestione degli errori 404</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>🏗️ Architettura del Sistema</h2>
+                    <p>
+                        Il server è costruito con un'architettura modulare che separa chiaramente 
+                        le responsabilità:
+                    </p>
+                    <div class="architecture-diagram">
+                        <div class="layer">
+                            <h4>📡 Livello Network</h4>
+                            <p>Socket TCP/IP per la comunicazione</p>
+                        </div>
+                        <div class="layer">
+                            <h4>🔄 Livello HTTP</h4>
+                            <p>Parsing e gestione del protocollo HTTP</p>
+                        </div>
+                        <div class="layer">
+                            <h4>📁 Livello File System</h4>
+                            <p>Servizio di file statici e MIME types</p>
+                        </div>
+                        <div class="layer">
+                            <h4>🎨 Livello Presentazione</h4>
+                            <p>Interfaccia web responsive</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card full-width">
+                    <h2>🔄 Flusso di Elaborazione delle Richieste</h2>
+                    <div class="flow-diagram">
+                        <div class="flow-step">
+                            <div class="step-number">1</div>
+                            <h4>Connessione Client</h4>
+                            <p>Il client si connette al server tramite socket TCP</p>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <div class="step-number">2</div>
+                            <h4>Ricezione Richiesta</h4>
+                            <p>Il server riceve e analizza la richiesta HTTP</p>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <div class="step-number">3</div>
+                            <h4>Parsing HTTP</h4>
+                            <p>Estrazione del metodo, path e headers</p>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <div class="step-number">4</div>
+                            <h4>Gestione Risorsa</h4>
+                            <p>Localizzazione e lettura del file richiesto</p>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <div class="step-number">5</div>
+                            <h4>Costruzione Risposta</h4>
+                            <p>Creazione della risposta HTTP completa</p>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <div class="step-number">6</div>
+                            <h4>Invio e Chiusura</h4>
+                            <p>Invio della risposta e chiusura connessione</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>📊 Funzionalità Implementate</h2>
+                    <div class="features-checklist">
+                        <div class="feature-section">
+                            <h4>🔧 Requisiti Base</h4>
+                            <div class="checkbox-item">✅ Server su localhost:8080</div>
+                            <div class="checkbox-item">✅ Almeno 3 pagine HTML statiche</div>
+                            <div class="checkbox-item">✅ Gestione richieste GET</div>
+                            <div class="checkbox-item">✅ Codici di risposta 200/404</div>
+                            <div class="checkbox-item">✅ Pagina 404 personalizzata</div>
+                        </div>
+                        
+                        <div class="feature-section">
+                            <h4>🎨 Estensioni Opzionali</h4>
+                            <div class="checkbox-item">✅ MIME types (.html, .css, .js, .png, ecc.)</div>
+                            <div class="checkbox-item">✅ Logging completo delle richieste</div>
+                            <div class="checkbox-item">✅ Layout responsive e moderno</div>
+                            <div class="checkbox-item">✅ Statistiche del server in tempo reale</div>
+                            <div class="checkbox-item">✅ Directory listing automatico</div>
+                            <div class="checkbox-item">✅ Gestione multi-threading</div>
+                            <div class="checkbox-item">✅ Protezione path traversal</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>🛠️ Tecnologie Utilizzate</h2>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <div class="tech-icon">🐍</div>
+                            <h4>Python 3</h4>
+                            <p>Linguaggio di programmazione principale</p>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">🔌</div>
+                            <h4>Socket Nativi</h4>
+                            <p>Comunicazione TCP/IP a basso livello</p>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">🧵</div>
+                            <h4>Threading</h4>
+                            <p>Gestione multi-client concorrente</p>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">📝</div>
+                            <h4>Logging</h4>
+                            <p>Sistema di registrazione eventi</p>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">🎨</div>
+                            <h4>HTML5/CSS3</h4>
+                            <p>Frontend moderno e responsive</p>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">⚡</div>
+                            <h4>JavaScript</h4>
+                            <p>Interattività lato client</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>🎯 Vantaggi dell'Implementazione</h2>
+                    <div class="advantages-grid">
+                        <div class="advantage-item">
+                            <h4>🔍 Controllo Completo</h4>
+                            <p>Implementazione da zero per massima comprensione</p>
+                        </div>
+                        <div class="advantage-item">
+                            <h4>📚 Valore Educativo</h4>
+                            <p>Apprendimento approfondito del protocollo HTTP</p>
+                        </div>
+                        <div class="advantage-item">
+                            <h4>⚡ Performance</h4>
+                            <p>Nessun overhead di framework esterni</p>
+                        </div>
+                        <div class="advantage-item">
+                            <h4>🔧 Personalizzazione</h4>
+                            <p>Facilità di modifica e estensione</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h2>🚀 Inizia ad Esplorare</h2>
+                <p>Scopri tutte le funzionalità del server e le informazioni tecniche dettagliate.</p>
+                <div class="cta-buttons">
+                    <a href="server.html" class="btn btn-primary">Informazioni Tecniche</a>
+                    <a href="header.html" class="btn btn-secondary">Gestione Header</a>
+                    <a href="/stats" class="btn btn-outline">Statistiche Live</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Filippo Patrignani - Progetto Web Server HTTP</p>
+            <p>Sviluppato per il corso di Programmazione di Reti</p>
+        </div>
+    </footer>
+
+    <script>
+        // Animazione per gli elementi del flusso
+        function animateFlow() {
+            const flowSteps = document.querySelectorAll('.flow-step');
+            const flowArrows = document.querySelectorAll('.flow-arrow');
+            
+            flowSteps.forEach((step, index) => {
+                step.style.opacity = '0';
+                step.style.transform = 'scale(0.8)';
+                step.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                
+                setTimeout(() => {
+                    step.style.opacity = '1';
+                    step.style.transform = 'scale(1)';
+                }, index * 200);
+            });
+            
+            flowArrows.forEach((arrow, index) => {
+                arrow.style.opacity = '0';
+                arrow.style.transition = 'opacity 0.3s ease';
+                
+                setTimeout(() => {
+                    arrow.style.opacity = '1';
+                }, (index + 1) * 200 + 100);
+            });
+        }
+
+        // Animazione per le card
+        function animateCards() {
+            const cards = document.querySelectorAll('.card');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+
+            cards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(card);
+            });
+        }
+
+        // Inizializzazione
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(animateFlow, 500);
+            animateCards();
+        });
+    </script>
+</body>
+</html>

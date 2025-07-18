@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server HTTP - Header Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/header.svg" type="image/svg+xml">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <img src="icons/logo.svg" alt="Logo" class="logo-img">
+                HTTP Server
+            </a>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="intro.html">Introduzione</a></li>
+                <li><a href="server.html">Server Info</a></li>
+                <li><a href="header.html" class="active">Headers</a></li>
+                <li><a href="/stats">Statistiche</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="hero-section">
+                <img src="icons/header.svg" alt="Header Icon" class="hero-icon">
+                <h1>Informazioni sui Header HTTP</h1>
+                <p class="hero-description">
+                    Scopri come funzionano i header HTTP e come il nostro server li gestisce
+                </p>
+            </div>
+
+            <div class="content-grid">
+                <div class="card">
+                    <h2>🔍 Cosa sono i Header HTTP?</h2>
+                    <p>
+                        Gli header HTTP sono metadati che forniscono informazioni aggiuntive 
+                        sulle richieste e risposte HTTP. Contengono informazioni come il tipo 
+                        di contenuto, la codifica, l'autenticazione e molto altro.
+                    </p>
+                    <div class="code-block">
+                        <h4>Esempio di Header di Richiesta:</h4>
+                        <pre><code>GET /index.html HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+Accept: text/html,application/xhtml+xml
+Accept-Language: it-IT,it;q=0.9,en;q=0.8
+Connection: keep-alive</code></pre>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>📤 Header di Risposta del Server</h2>
+                    <p>
+                        Il nostro server invia header di risposta per fornire informazioni 
+                        sul contenuto servito e sullo stato della risposta.
+                    </p>
+                    <div class="code-block">
+                        <h4>Esempio di Header di Risposta:</h4>
+                        <pre><code>HTTP/1.1 200 OK
+Server: SimpleHTTPServer/1.0 (Python)
+Date: Fri, 18 Jul 2025 10:30:00 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 1024
+Connection: close</code></pre>
+                    </div>
+                </div>
+
+                <div class="card full-width">
+                    <h2>📋 Header Supportati dal Server</h2>
+                    <div class="header-grid">
+                        <div class="header-item">
+                            <h4>Content-Type</h4>
+                            <p>Specifica il tipo MIME del contenuto (HTML, CSS, JavaScript, immagini, ecc.)</p>
+                        </div>
+                        <div class="header-item">
+                            <h4>Content-Length</h4>
+                            <p>Indica la dimensione in byte del corpo della risposta</p>
+                        </div>
+                        <div class="header-item">
+                            <h4>Server</h4>
+                            <p>Identifica il software del server web</p>
+                        </div>
+                        <div class="header-item">
+                            <h4>Date</h4>
+                            <p>Timestamp della generazione della risposta</p>
+                        </div>
+                        <div class="header-item">
+                            <h4>Last-Modified</h4>
+                            <p>Data di ultima modifica del file richiesto</p>
+                        </div>
+                        <div class="header-item">
+                            <h4>Connection</h4>
+                            <p>Gestisce la persistenza della connessione</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>🎯 MIME Types Supportati</h2>
+                    <div class="mime-list">
+                        <div class="mime-item">
+                            <span class="mime-ext">.html/.htm</span>
+                            <span class="mime-type">text/html</span>
+                        </div>
+                        <div class="mime-item">
+                            <span class="mime-ext">.css</span>
+                            <span class="mime-type">text/css</span>
+                        </div>
+                        <div class="mime-item">
+                            <span class="mime-ext">.js</span>
+                            <span class="mime-type">application/javascript</span>
+                        </div>
+                        <div class="mime-item">
+                            <span class="mime-ext">.png</span>
+                            <span class="mime-type">image/png</span>
+                        </div>
+                        <div class="mime-item">
+                            <span class="mime-ext">.jpg/.jpeg</span>
+                            <span class="mime-type">image/jpeg</span>
+                        </div>
+                        <div class="mime-item">
+                            <span class="mime-ext">.pdf</span>
+                            <span class="mime-type">application/pdf</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>🔧 Funzionalità Avanzate</h2>
+                    <ul class="feature-list">
+                        <li>✅ Gestione automatica del Content-Type basata sull'estensione</li>
+                        <li>✅ Header Last-Modified per il caching</li>
+                        <li>✅ Charset UTF-8 per i contenuti testuali</li>
+                        <li>✅ Header Server personalizzato</li>
+                        <li>✅ Gestione sicura delle connessioni</li>
+                        <li>✅ Prevenzione path traversal</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="image-showcase">
+                <h2>📸 Visualizzazione Header</h2>
+                <div class="image-grid">
+                    <div class="image-card">
+                        <img src="icons/header_request_raw.svg" alt="Raw Request Headers">
+                        <h4>Header di Richiesta Raw</h4>
+                        <p>Header HTTP così come arrivano al server</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="icons/header_response_raw.svg" alt="Raw Response Headers">
+                        <h4>Header di Risposta Raw</h4>
+                        <p>Header HTTP inviati dal server al client</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="icons/header_response.svg" alt="Formatted Response Headers">
+                        <h4>Header Formattati</h4>
+                        <p>Visualizzazione user-friendly degli header</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Filippo Patrignani - Progetto Programmazione di Reti</p>
+            <p>Sviluppato in Python con socket nativi</p>
+        </div>
+    </footer>
+
+    <script>
+        // Animazione per le card
+        const cards = document.querySelectorAll('.card');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        });
+
+        cards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>

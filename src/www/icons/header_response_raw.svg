@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <rect x="4" y="8" width="56" height="48" rx="4" fill="#e8f5e8" stroke="#4caf50" stroke-width="2"/>
+    <text x="8" y="20" fill="#2e7d32" font-family="monospace" font-size="6">HTTP/1.1 200 OK</text>
+    <text x="8" y="28" fill="#2e7d32" font-family="monospace" font-size="5">Content-Type: text/html</text>
+    <text x="8" y="36" fill="#2e7d32" font-family="monospace" font-size="5">Content-Length: 1024</text>
+    <text x="8" y="44" fill="#2e7d32" font-family="monospace" font-size="5">Server: SimpleHTTP/1.0</text>
+</svg>
